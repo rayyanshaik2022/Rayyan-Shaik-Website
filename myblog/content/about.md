@@ -20,6 +20,7 @@ Here is a short list detailing my computer science experience:
 * TCP sockets and server-client applications
 * GUI and graphics based applications
 * Web-scrabing scripts
+* Threading and multitasking
 * Python3 libaries (numpy, beautiful soup, etc)
 
 What I want to learn in the future:
