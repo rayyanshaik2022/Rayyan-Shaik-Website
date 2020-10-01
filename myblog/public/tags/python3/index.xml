@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python3 on Rayyan Shaik</title>
+    <link>/tags/python3/</link>
+    <description>Recent content in python3 on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 28 Jun 2019 12:39:56 +0100</lastBuildDate><atom:link href="/tags/python3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoclickr</title>
+      <link>/blog/autoclickr/</link>
+      <pubDate>Fri, 28 Jun 2019 12:39:56 +0100</pubDate>
+      
+      <guid>/blog/autoclickr/</guid>
+      <description>Description A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment builder.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Create a fast and reliable auto clicker Have the script be easy to use and interact with Make the driver code relatively simple for easy changes  Driver code from autoclickr import Autoclickr mult = int(input(&amp;#34;Scale value (threads to be opened): &amp;#34;)) clicker = Autoclickr(True, 0, &amp;#39;left&amp;#39;, &amp;#39;right&amp;#39;,scaled=mult, clickType=0) clicker.</description>
+    </item>
+    
+    <item>
+      <title>Agent-Maze Environment</title>
+      <link>/blog/agent-maze/</link>
+      <pubDate>Fri, 26 Apr 2019 12:39:56 +0100</pubDate>
+      
+      <guid>/blog/agent-maze/</guid>
+      <description>Description A project developed by WPS Lakerbotics Programming designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Practice of advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickles  Dependencies  Pygame Numpy Pickle  Usage Creating a map  Run builder.py When finished, press the &amp;ldquo;enter&amp;rdquo; key to save map to &amp;lsquo;map.</description>
+    </item>
+    
+  </channel>
+</rss>

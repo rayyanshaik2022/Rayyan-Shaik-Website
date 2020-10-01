@@ -10,7 +10,7 @@ tags: ["python3", "gui", "collaboration"]
 ---
 
 ### Description
-A project developed by WPS Lakerbotics Programming designed as a testing environment for
+A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for
 pathfinding "agent" algorithms.
 
 ### Github Repository
