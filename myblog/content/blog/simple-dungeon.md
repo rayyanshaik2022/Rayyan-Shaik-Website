@@ -10,7 +10,7 @@ tags: ["python3", "sockets", "gui","featured"]
 ---
 
 ### Description
-A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.
+A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.
 
 
 ### Github Repository

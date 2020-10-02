@@ -26,6 +26,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Aut
 ### Project Images
 
 {{< figure src="/images/agent-maze1.gif" alt="agent-maze1.gif" width=500 >}}
+---
 {{< figure src="/images/agent-maze2.png" alt="agent-maze2.png" width=500 >}}
 ---
 
