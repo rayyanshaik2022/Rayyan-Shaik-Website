@@ -6,7 +6,7 @@ publishDate: 2020-07-19
 author: "Rayyan Shaik"
 draft: false
 images: []
-tags: ["python3", "sockets", "gui"]
+tags: ["python3", "sockets", "gui","featured"]
 ---
 
 ### Description

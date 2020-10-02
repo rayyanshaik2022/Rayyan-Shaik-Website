@@ -1,12 +1,12 @@
 ---
-title: "Simple Dungeon"
+title: "Simple Dungeon Game"
 description: "A polished dungeon builder and multiplayer dungeon game"
 date: 2020-08-09
 publishDate: 2020-08-09
 author: "Rayyan Shaik"
 draft: false
 images: []
-tags: ["python3", "sockets", "gui"]
+tags: ["python3", "sockets", "gui","featured"]
 ---
 
 ### Description
@@ -23,8 +23,16 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Sim
 * An efficient way to send data between server and client   
 this was solved through a custom push/pull method
 
-### Simple-Dungeon readme.txt
+### Project Images
 
+{{< figure src="/images/simple-dungeon1.gif" alt="simple-dungeon1.gif" width=600 >}}
+---
+
+{{< figure src="/images/simple-dungeon2.gif" alt="simple-dungeon2.gif" width=600 >}}
+---
+
+{{< figure src="/images/simple-dungeon3.png" alt="simple-dungeon3.png" width=600 >}}
+---
 
 ### Dependencies
 * pygame

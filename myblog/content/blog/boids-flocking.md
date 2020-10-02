@@ -23,6 +23,10 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Boi
     * Cohesion: Steer towards the average position of all entities
 * Visually pleasing and easy to understand
 
+### Project Images
+
+{{< figure src="/images/boids1.gif" alt="boids1.gif" width=600 >}}
+---
 
 ### Dependencies
 * pygame

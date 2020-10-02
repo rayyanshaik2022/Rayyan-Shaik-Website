@@ -5,7 +5,46 @@
     <link>/tags/python3/</link>
     <description>Recent content in python3 on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 28 Jun 2019 12:39:56 +0100</lastBuildDate><atom:link href="/tags/python3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Velociraptor Bot</title>
+      <link>/blog/velociraptorbot/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/velociraptorbot/</guid>
+      <description>Description A multi-purpose discord bot to be used on a private server with my friends. This bot provides basic security for our server with an easily customizable verification system. Important e-learnig and virtual learning commands that can reply with my school&amp;rsquo;s schedule and per class zoom links. The bot can also join voice channels and play different sound effects stored as .mp3 files.
+Github Repository The Github repository can be found here</description>
+    </item>
+    
+    <item>
+      <title>Simple Dungeon</title>
+      <link>/blog/simple-dungeon/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/simple-dungeon/</guid>
+      <description>Description A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.
+Github Repository The Github repository can be found here
+What were my goals with this project?</description>
+    </item>
+    
+    <item>
+      <title>Agar.io Clone</title>
+      <link>/blog/agario/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/agario/</guid>
+      <description>Description A complete, scalable clone of the popular web game, agar.io. This project was created purely in python, and utilizes the pygame (GUI) and sockets (web connection) libraries. There are 2 main files used to run code. The first is client.py, which runs the game itself. The second is server.py, which can be run on any network and can open a customizable &amp;ldquo;agar.io&amp;rdquo; server on any port. This game is playable online, and through local networks.</description>
+    </item>
+    
+    <item>
+      <title>Boids Flocking Algorithm</title>
+      <link>/blog/boids-flocking/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/boids-flocking/</guid>
+      <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
+    </item>
+    
     <item>
       <title>Autoclickr</title>
       <link>/blog/autoclickr/</link>
@@ -23,9 +62,9 @@ What were my goals with this project?  Create a fast and reliable auto clicker H
       <pubDate>Fri, 26 Apr 2019 12:39:56 +0100</pubDate>
       
       <guid>/blog/agent-maze/</guid>
-      <description>Description A project developed by WPS Lakerbotics Programming designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
+      <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice of advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickles  Dependencies  Pygame Numpy Pickle  Usage Creating a map  Run builder.py When finished, press the &amp;ldquo;enter&amp;rdquo; key to save map to &amp;lsquo;map.</description>
+What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.md Creating a map  Run builder.</description>
     </item>
     
   </channel>

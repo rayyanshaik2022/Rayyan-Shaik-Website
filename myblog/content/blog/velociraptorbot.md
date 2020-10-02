@@ -21,6 +21,16 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Vel
 * Abstraction through cogs
 * Multi-user interactions and long-term data storage regarding many users
 
+### Project Images
+
+{{< figure src="/images/velobot1.png" alt="velobot1.png" width=350 >}}
+---
+{{< figure src="/images/velobot2.png" alt="velobot2.png" width=350 >}}
+---
+{{< figure src="/images/velobot2.png" alt="velobot3.png" width=350 >}}
+---
+
+
 ### Velociraptor Bot readme.txt
 Due to security and privacy concerns...   
 Some files which are necessary for the bot to run or utilize fully are ommitted from this repository.

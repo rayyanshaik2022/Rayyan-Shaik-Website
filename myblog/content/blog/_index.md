@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "All Projects"
 description: ""
 draft: false
 images: []

@@ -71,8 +71,8 @@ themesDir = "../myblog/themes"
 
 [params.cta]
     show = true
-    message = "My Projects"
-    link = "/blog"
+    message = "Featured Projects"
+    link = "/tags/featured"
 
 
 
