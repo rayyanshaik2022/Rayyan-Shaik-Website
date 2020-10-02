@@ -17,11 +17,11 @@ pathfinding "agent" algorithms.
 The [Github repository can be found here](https://github.com/rayyanshaik2022/Autoclickr/)
 
 ### What were my goals with this project?
-* Practice of advanced manipulation of 2d arrays
+* Practice advanced manipulation of 2d arrays
 * Practice GUI efficiency
 * Minimalist and attractive graphics
 * Object-Oriented approach
-* Object reading and writing with pickles
+* Object reading and writing with pickle library
 
 ### Dependencies
 * Pygame
@@ -29,7 +29,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Aut
 * Pickle
 
 
-### Usage
+### Agent-Maze-Environment README.md
 ## Creating a map
 * Run builder.py
 * When finished, press the "enter" key to save map to 'map.pkl'
