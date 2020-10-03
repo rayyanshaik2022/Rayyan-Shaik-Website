@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 language = "en-US"
 paginate = 5
 
-theme = "hugo-piercer-theme @ b42c763"
+theme = "hugo-piercer-theme1"
 themesDir = "/themes"
 
 [privacy]
