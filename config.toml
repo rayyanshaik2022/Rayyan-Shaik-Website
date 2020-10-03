@@ -8,7 +8,7 @@ language = "en-US"
 paginate = 5
 
 theme = "hugo-piercer-theme"
-themesDir = "../myblog/themes"
+themesDir = "/themes"
 
 [privacy]
     [privacy.googleAnalytics]
