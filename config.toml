@@ -8,7 +8,7 @@ language = "en-US"
 paginate = 5
 
 theme = "hugo-piercer-theme"
-themesDir = "/themes/"
+themesDir = "/themes"
 
 [privacy]
     [privacy.googleAnalytics]
