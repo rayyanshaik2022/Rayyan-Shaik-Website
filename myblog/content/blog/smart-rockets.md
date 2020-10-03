@@ -1,8 +1,8 @@
 ---
 title: "Smart Rockets"
 description: "Guiding rockets via a genetic algorithm"
-date: 2019-04-26
-publishDate: 2019-04-26
+date: 2020-07-15
+publishDate: 2020-07-15
 author: "Rayyan Shaik"
 draft: false
 images: []
@@ -32,9 +32,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Sma
 
 ### Project Images
 
-{{< figure src="/images/agent-maze1.gif" alt="agent-maze1.gif" width=500 >}}
----
-{{< figure src="/images/agent-maze2.png" alt="agent-maze2.png" width=500 >}}
+{{< figure src="/images/smart-rockets1.gif" alt="agent-maze1.gif" width=500 >}}
 ---
 
 ### Dependencies

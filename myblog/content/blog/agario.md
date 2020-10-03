@@ -20,9 +20,17 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Aga
 * Create a graphical/GUI game that implemented physics and a dynamic viewport
 * Experiment with methods of storing and transfering data
 
+
+### Project Images
+
+{{< figure src="/images/agario1.gif" alt="agario1.gif" width=500 >}}
+---
+{{< figure src="/images/agario2.png" alt="agario2.png" width=500 >}}
+---
+
 ### Agario-Multiplayer readme.txt
 ## Setup
-* Run the server.py file. It will prompt you with how you want the game map to be, and what port to run the server on.
+* Run the server.py file. It will prompt you with how you want the game map to be, what ip to use, and what port to run the server on.
 * Next run client.py.   An ip and port (localhost is default) can typed into the text box at the bottom.   
 Click on the play button to join the server.
 

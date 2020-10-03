@@ -3,7 +3,7 @@ title: "Emojis"
 description: "Emoji can be enabled in a Hugo project in a number of ways."
 publishDate: 2019-03-28T12:24:47+01:00
 author: "John Doe"
-draft: false
+draft: true
 images: []
 tags: ["emojis", "hugo"]
 ---

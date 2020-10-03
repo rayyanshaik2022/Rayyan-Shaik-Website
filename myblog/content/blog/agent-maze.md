@@ -1,8 +1,8 @@
 ---
 title: "Agent-Maze Environment"
 description: "An environment builder with agent deployment"
-date: 2019-04-26T12:39:56+01:00
-publishDate: 2019-04-26T12:39:56+01:00
+date: 2020-04-26
+publishDate: 2020-04-26
 author: "Rayyan Shaik & Rahul Mohan"
 draft: false
 images: []
@@ -14,7 +14,7 @@ A project developed by WPS Lakerbotics Programming Team, designed as a testing e
 pathfinding "agent" algorithms.
 
 ### Github Repository
-The [Github repository can be found here](https://github.com/rayyanshaik2022/Autoclickr/)
+The [Github repository can be found here](https://github.com/WPS-Programming/Agent-Maze-Solver)
 
 ### What were my goals with this project?
 * Practice advanced manipulation of 2d arrays
