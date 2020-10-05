@@ -24,7 +24,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Per
 
 ### Project Images
 
-{{< figure src="/images/perlinmap2.png" alt="perlinmap2.png" width=500 >}}
+{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/perlinmap2.png" alt="perlinmap2.png" width=500 >}}
 ---
 {{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/perlinmap3.png" alt="perlinmap3.png" width=500 >}}
 ---

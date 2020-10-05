@@ -25,7 +25,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Boi
 
 ### Project Images
 
-{{< figure src="/images/boids1.gif" alt="boids1.gif" width=600 >}}
+{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/boids1.gif" alt="boids1.gif" width=600 >}}
 ---
 
 ### Dependencies
