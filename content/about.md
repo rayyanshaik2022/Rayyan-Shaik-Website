@@ -15,11 +15,12 @@ This hyper-link can be used to view my [Github Repositories](https://github.com/
 
 Here is a short list detailing my computer science experience:
 
+* Languages: Python3, Java
 * Object Oriented Programming & Polymorphism
-* Familiar with basic machine learning structures
+* Basic machine learning structures
 * TCP sockets and server-client applications
 * GUI and graphics based applications
-* Web-scrabing scripts
+* Web-scraping scripts
 * Threading and multitasking
 * Python3 libaries (numpy, beautiful soup, etc)
 * Robotics control systems (WPILib, CTRE Phoenix)
