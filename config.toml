@@ -6,7 +6,7 @@ enableRobotsTXT = true
 defaultContentLanguage = "en"
 language = "en-US"
 paginate = 5
-publicDir = "docs"
+publishDir = "docs"
 
 theme = "hugo-piercer-theme1"
 themesDir = "/themes"
