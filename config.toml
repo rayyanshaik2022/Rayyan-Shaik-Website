@@ -74,7 +74,7 @@ themesDir = "/themes"
 [params.cta]
     show = true
     message = "Featured Projects"
-    link = "/Rayyan-Shaik-Website/tags/featured"
+    link = "/tags/featured"
 
 
 
