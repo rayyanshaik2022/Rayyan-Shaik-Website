@@ -9,7 +9,7 @@ language = "en-US"
 paginate = 5
 publishDir = "docs"
 
-theme = "hugo-piercer-theme1"
+theme = "hugo-piercer-theme"
 themesDir = "/themes"
 
 [privacy]
