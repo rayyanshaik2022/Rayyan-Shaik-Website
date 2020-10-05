@@ -28,6 +28,7 @@ What I want to learn in the future:
 * Javascript and web applications
 * Deep genetic algorithms
 
-Learn more and contribute on my [GitHub](https://github.com/rayyanshaik2022?tab=repositories).  
-Email: [rayyanshaik2022@gmail.com]()  
-Phone Number: [14077567366]()
+## Contact Information
+# Learn more and contribute on my [GitHub](https://github.com/rayyanshaik2022?tab=repositories).  
+# Email: [rayyanshaik2022@gmail.com]()  
+# Phone Number: [14077567366]()
