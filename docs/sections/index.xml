@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Rayyan Shaik</title>
-    <link>/sections/</link>
+    <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/sections/</link>
     <description>Recent content in Sections on Rayyan Shaik</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/sections/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/sections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to navigate this website</title>
-      <link>/sections/aboutme/</link>
+      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/sections/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sections/aboutme/</guid>
+      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/sections/aboutme/</guid>
       <description>Click on the &amp;ldquo;Menu&amp;rdquo; button at top left to view each category
  Home: Website&amp;rsquo;s home page About Me: Information about myself and programming experience Projects: View my recently complete projects and summaries.
 You can click on a project&amp;rsquo;s name to view it&amp;rsquo;s contents.  </description>

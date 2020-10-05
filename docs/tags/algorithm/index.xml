@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>algorithm on Rayyan Shaik</title>
-    <link>/tags/algorithm/</link>
+    <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/tags/algorithm/</link>
     <description>Recent content in algorithm on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Perlin Noise Map Generator</title>
-      <link>/blog/perlinmap/</link>
+      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/perlinmap/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/perlinmap/</guid>
+      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/perlinmap/</guid>
       <description>Description A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &amp;ldquo;color output&amp;rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.</description>
     </item>
     
     <item>
       <title>Boids Flocking Algorithm</title>
-      <link>/blog/boids-flocking/</link>
+      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/boids-flocking/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/boids-flocking/</guid>
+      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/boids-flocking/</guid>
       <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
     </item>
     
     <item>
       <title>Sorting Visualizer</title>
-      <link>/blog/sorting-visualizer/</link>
+      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/sorting-visualizer/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/sorting-visualizer/</guid>
+      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/sorting-visualizer/</guid>
       <description>Description A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.
 Github Repository The Github repository can be found here
 What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images    Dependencies  Pygame  </description>
@@ -37,10 +37,10 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
     
     <item>
       <title>A* Pathfinding</title>
-      <link>/blog/astar-pathfinding/</link>
+      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/astar-pathfinding/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/astar-pathfinding/</guid>
+      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/astar-pathfinding/</guid>
       <description>Description An implementation of the A* Pathfinding Algorithm. The logic behind this algorithm is based on the function f(n) = g(n) + h(n). Where the total cost of &amp;ldquo;moving&amp;rdquo; is the sum of the cost of the path to the starting node and the cost as calculated by the heuristic function for the cheapest path from the next node to the goal.
 Github Repository The Github repository can be found here</description>
     </item>
