@@ -1,5 +1,5 @@
 baseurl = "https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/"
-relativeURLs = true
+relativeURLs = false
 title = "Rayyan Shaik"
 author = "Rayyan Shaik"
 googleAnalytics = ""
