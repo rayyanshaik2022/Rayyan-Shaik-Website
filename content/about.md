@@ -7,7 +7,7 @@ menu: main
 weight: 2
 ---
 
-I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I'm very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science, a cybersecurity summer course at Embry Riddle, and I am also currently enrolled in IB Computer Science (Higher Level). I am also an active participat in my school's programming club, as well as the co-president and lead programmer for FRC (First Robotics Competition) Team 1649. 
+I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I'm very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science, a cybersecurity summer course at Embry Riddle, and I am also currently enrolled in IB Computer Science (Higher Level). I am also an active participant in my school's programming club, as well as the co-president and lead programmer for FRC (First Robotics Competition) Team 1649. 
 
 Since 2017, I have been learning how to program in Python3, and since 2018 I have been learning how to program in Java. On this website portfolio, you can find "posts" regarding my complete programming projects. 
 
