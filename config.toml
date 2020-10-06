@@ -1,4 +1,4 @@
-baseurl = "https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/"
+baseurl = "rayyanshaik.com"
 relativeURLs = false
 title = "Rayyan Shaik"
 author = "Rayyan Shaik"
@@ -33,7 +33,7 @@ themesDir = "/themes"
         privacyEnhanced = true
 
 [params]
-    description = "I am Rayyan Shaik, and this website is my portfolio."
+    description = "I am Rayyan Shaik and this website is my programming portfolio."
     favicon = "favicon.ico"
     logo = ""
 
