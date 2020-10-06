@@ -24,9 +24,9 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Per
 
 ### Project Images
 
-{{< figure src="https://rayyanshaik.com/images/perlinmap2.png" alt="perlinmap2.png" width=500 >}}
+{{< figure src="../../images/perlinmap2.png" alt="perlinmap2.png" width=500 >}}
 ---
-{{< figure src="https://rayyanshaik.com/images/perlinmap3.png" alt="perlinmap3.png" width=500 >}}
+{{< figure src="../../images/perlinmap3.png" alt="perlinmap3.png" width=500 >}}
 ---
 
 ### Dependencies

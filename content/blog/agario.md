@@ -25,7 +25,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Aga
 
 {{< figure src="../../images/agario1.gif" alt="agario1.gif" width=500 >}}
 ---
-{{< figure src="../../agario2.png" alt="agario2.png" width=500 >}}
+{{< figure src="../../images/agario2.png" alt="agario2.png" width=500 >}}
 ---
 
 ### Agario-Multiplayer readme.txt
