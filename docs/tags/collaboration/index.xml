@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>collaboration on Rayyan Shaik</title>
-    <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/tags/collaboration/</link>
+    <link>rayyanshaik.com/tags/collaboration/</link>
     <description>Recent content in collaboration on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="rayyanshaik.com/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent-Maze Environment</title>
-      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/agent-maze/</link>
+      <link>rayyanshaik.com/blog/agent-maze/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/agent-maze/</guid>
+      <guid>rayyanshaik.com/blog/agent-maze/</guid>
       <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
 What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images       Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
@@ -19,10 +19,10 @@ What were my goals with this project?  Practice advanced manipulation of 2d arra
     
     <item>
       <title>Lakerbotics 2020 Code</title>
-      <link>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/lakerbotics2020/</link>
+      <link>rayyanshaik.com/blog/lakerbotics2020/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/blog/lakerbotics2020/</guid>
+      <guid>rayyanshaik.com/blog/lakerbotics2020/</guid>
       <description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description>
     </item>
     
