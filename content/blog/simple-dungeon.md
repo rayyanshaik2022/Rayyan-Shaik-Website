@@ -25,13 +25,13 @@ this was solved through a custom push/pull method
 
 ### Project Images
 
-{{< figure src="rayyanshaik.com/images/simple-dungeon1.gif" alt="simple-dungeon1.gif" width=600 >}}
+{{< figure src="https://rayyanshaik.com/images/simple-dungeon1.gif" alt="simple-dungeon1.gif" width=600 >}}
 ---
 
-{{< figure src="rayyanshaik.com/images/simple-dungeon2.gif" alt="simple-dungeon2.gif" width=600 >}}
+{{< figure src="https://rayyanshaik.com/images/simple-dungeon2.gif" alt="simple-dungeon2.gif" width=600 >}}
 ---
 
-{{< figure src="rayyanshaik.com/images/simple-dungeon3.png" alt="simple-dungeon3.png" width=600 >}}
+{{< figure src="https://rayyanshaik.com/images/simple-dungeon3.png" alt="simple-dungeon3.png" width=600 >}}
 ---
 
 ### Dependencies

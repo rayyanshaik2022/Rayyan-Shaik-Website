@@ -24,7 +24,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/A-P
 
 ### Project Images
 
-{{< figure src="rayyanshaik.com/images/astar1.gif" alt="/images/astar1.gif" width=500 >}}
+{{< figure src="https://rayyanshaik.com/images/astar1.gif" alt="/images/astar1.gif" width=500 >}}
 ---
 
 
