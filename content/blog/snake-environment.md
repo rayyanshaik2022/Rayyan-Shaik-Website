@@ -23,7 +23,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Sna
 
 ### Project Images
 
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/snake-environment1.gif" alt="agent-maze1.gif" width=500 >}}
+{{< figure src="rayyanshaik.com/images/snake-environment1.gif" alt="agent-maze1.gif" width=500 >}}
 ---
 
 ### Dependencies

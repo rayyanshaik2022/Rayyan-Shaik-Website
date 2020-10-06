@@ -23,11 +23,11 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Vel
 
 ### Project Images
 
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/velobot1.png" alt="velobot1.png" width=350 >}}
+{{< figure src="rayyanshaik.com/images/velobot1.png" alt="velobot1.png" width=350 >}}
 ---
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/velobot2.png" alt="velobot2.png" width=350 >}}
+{{< figure src="rayyanshaik.com/images/velobot2.png" alt="velobot2.png" width=350 >}}
 ---
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/velobot2.png" alt="velobot3.png" width=350 >}}
+{{< figure src="rayyanshaik.com/images/velobot2.png" alt="velobot3.png" width=350 >}}
 ---
 
 

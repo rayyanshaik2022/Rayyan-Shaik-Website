@@ -32,7 +32,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Sma
 
 ### Project Images
 
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/smart-rockets1.gif" alt="agent-maze1.gif" width=500 >}}
+{{< figure src="rayyanshaik.com/images/smart-rockets1.gif" alt="agent-maze1.gif" width=500 >}}
 ---
 
 ### Dependencies

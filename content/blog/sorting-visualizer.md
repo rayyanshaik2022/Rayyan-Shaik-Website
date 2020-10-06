@@ -24,7 +24,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Sor
 
 ### Project Images
 
-{{< figure src="https://rayyanshaik2022.github.io/Rayyan-Shaik-Website/images/sortingvisualizer1.gif" alt="sortingvisualizer1.gif" width=500 >}}
+{{< figure src="rayyanshaik.com/images/sortingvisualizer1.gif" alt="sortingvisualizer1.gif" width=500 >}}
 ---
 
 ### Dependencies
