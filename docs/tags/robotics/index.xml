@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>robotics on Rayyan Shaik</title>
-    <link>rayyanshaik.com/tags/robotics/</link>
+    <link>http:rayyanshaik.com/tags/robotics/</link>
     <description>Recent content in robotics on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="rayyanshaik.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="http:rayyanshaik.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lakerbotics 2020 Code</title>
-      <link>rayyanshaik.com/blog/lakerbotics2020/</link>
+      <link>http:rayyanshaik.com/blog/lakerbotics2020/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>rayyanshaik.com/blog/lakerbotics2020/</guid>
+      <guid>http:rayyanshaik.com/blog/lakerbotics2020/</guid>
       <description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description>
     </item>
     
