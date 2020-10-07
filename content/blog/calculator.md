@@ -20,6 +20,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Cal
 * Create an expression solver without external resources
 * Make the driver code relatively easy to use
 * Have the solution be as efficient as possible
+* Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.
 
 ### Project Images
 {{< figure src="../../images/calculator1.png" alt="calculator1.png" width=600 >}}
