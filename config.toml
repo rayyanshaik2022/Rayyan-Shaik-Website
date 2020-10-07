@@ -6,7 +6,7 @@ googleAnalytics = ""
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 language = "en-US"
-paginate = 5
+paginate = 6
 publishDir = "docs"
 
 theme = "hugo-piercer-theme"
