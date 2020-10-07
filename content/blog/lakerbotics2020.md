@@ -3,7 +3,7 @@ title: "Lakerbotics 2020 Code"
 description: "FRC Team 1649's robot code "
 date: 2020-03-08
 publishDate: 2020-03-08
-author: "Rayyan Shaik & Rahul Mohan & Andrew Diab"
+author: "Rayyan Shaik, Rahul Mohan, Andrew Diab"
 draft: false
 images: []
 tags: ["java", "robotics", "collaboration","featured"]
