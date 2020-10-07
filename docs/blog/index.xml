@@ -5,7 +5,16 @@
     <link>https://rayyanshaik.com/blog/</link>
     <description>Recent content in All Projects on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Expression Evaluator</title>
+      <link>https://rayyanshaik.com/blog/calculator/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/blog/calculator/</guid>
+      <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
+    </item>
+    
     <item>
       <title>Velociraptor Bot</title>
       <link>https://rayyanshaik.com/blog/velociraptorbot/</link>

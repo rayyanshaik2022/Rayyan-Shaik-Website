@@ -5,7 +5,7 @@
     <link>https://rayyanshaik.com/</link>
     <description>Recent content in Home on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to navigate this website</title>
       <link>https://rayyanshaik.com/sections/aboutme/</link>
@@ -24,6 +24,15 @@ You can click on a project&amp;rsquo;s name to view it&amp;rsquo;s contents.  </
       
       <guid>https://rayyanshaik.com/about/</guid>
       <description>I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science, a cybersecurity summer course at Embry Riddle, and I am also currently enrolled in IB Computer Science (Higher Level). I am also an active participant in my school&amp;rsquo;s programming club, as well as the co-president and lead programmer for FRC (First Robotics Competition) Team 1649.</description>
+    </item>
+    
+    <item>
+      <title>Mathematical Expression Evaluator</title>
+      <link>https://rayyanshaik.com/blog/calculator/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/blog/calculator/</guid>
+      <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
     </item>
     
     <item>

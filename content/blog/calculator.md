@@ -23,7 +23,7 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Cal
 * Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.
 
 ### Project Images
-{{< figure src="../../images/calculator1.png" alt="calculator1.png" width=600 >}}
+{{< figure src="../../images/calculator1.jpg" alt="calculator1.jpg" width=600 >}}
 ---
 
 ### Recursive Driver code
