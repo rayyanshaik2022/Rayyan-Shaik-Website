@@ -84,7 +84,7 @@ themesDir = "/themes"
 
 [params.form]
     show = false
-    netlify = false
+    netlify = true
     action = ""
     method = "POST"
     section = "Contact me!"
