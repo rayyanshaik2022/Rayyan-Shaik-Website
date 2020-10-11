@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Rayyan Shaik &amp; Andrew Diab">
-<meta name="description" content="" />
+<meta name="description" content="Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve()." />
 <meta name="keywords" content="portfolio programming robotics, Java, Algorithm, Collaboration, Featured" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -47,10 +47,10 @@
 
 
 <meta itemprop="name" content="Mathematical Expression Evaluator">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().">
 <meta itemprop="datePublished" content="2020-10-07T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-07T00:00:00+00:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="416">
 <meta itemprop="image" content="https://rayyanshaik.com/"/>
 
 
@@ -61,12 +61,12 @@
 <meta name="twitter:image" content="https://rayyanshaik.com/"/>
 
 <meta name="twitter:title" content="Mathematical Expression Evaluator"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve()."/>
 
 
 
     <meta property="og:title" content="Mathematical Expression Evaluator" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve()." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rayyanshaik.com/timeline/calculator/" />
 <meta property="og:image" content="https://rayyanshaik.com/"/>
@@ -143,7 +143,7 @@
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        0 minutes
+        2 minutes
 
         
       </p>
@@ -157,7 +157,82 @@
       
 
       <div class="post-content">
-        
+        <h3 id="description">Description</h3>
+<p>This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory <code>/Dijkstra</code> was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory <code>Recursive</code>. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method <code>simpleSolve()</code>. Within this same class, the <code>solve()</code> method &ldquo;searches&rdquo; for parenthetical expressions and recursively solves the general equation by calling <code>simpleSolve()</code> multiple times.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Calculator">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Design/write under an efficient workflow with my partner</li>
+<li>Create an expression solver without external resources</li>
+<li>Make the driver code relatively easy to use</li>
+<li>Have the solution be as efficient as possible</li>
+<li>Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/calculator1.jpg"
+         alt="calculator1.jpg" width="600"/> 
+</figure>
+</h2>
+<h3 id="driver-code">Driver code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Output: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">());</span></code></pre></div>
+<h3 id="testing-outputs">Testing outputs</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">(-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">))</span>
+<span style="color:#f92672">---------------------</span>
+Evaluating: <span style="color:#f92672">((-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">)))</span> <span style="color:#f92672">&gt;&gt;&gt;</span>
+<span style="color:#f92672">---------------------</span>
+Output: <span style="color:#f92672">-</span>5<span style="color:#f92672">.</span><span style="color:#a6e22e">444444444444445</span>
+Calculation <span style="color:#a6e22e">time</span> <span style="color:#f92672">(</span>ms<span style="color:#f92672">):</span> 2
+Would you like to exit<span style="color:#f92672">?</span> <span style="color:#f92672">(</span>y<span style="color:#f92672">/</span>n<span style="color:#f92672">)</span> <span style="color:#f92672">:</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> yes</code></pre></div>
+<h3 id="recursive-solve-code">Recursive solve() code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">contains</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+            <span style="color:#75715e">/* This &#39;portion&#39; of the method, recursively breaks down parenthetical statements
+</span><span style="color:#75715e">            into simple expressions. It then takes the outputs of all the
+</span><span style="color:#75715e">            parenthetical statements and calculates the rest of the expression using
+</span><span style="color:#75715e">            simpleSolve() */</span>
+            
+            <span style="color:#66d9ef">int</span> parenthesisCount <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> charEquation <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">();</span>
+            String finalEquation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">int</span> index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">int</span> index2 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+
+            <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> charEquation<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;(&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>index1 <span style="color:#f92672">==</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                        index1 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
+                    <span style="color:#f92672">}</span>
+                    parenthesisCount <span style="color:#f92672">++;</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;)&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    parenthesisCount <span style="color:#f92672">--;</span>
+                    <span style="color:#75715e">/* When the parenthesis count is at 0 on a closed parenthesis
+</span><span style="color:#75715e">                    that means that a parenthetical expression has ended. This is to
+</span><span style="color:#75715e">                    be parsed, and solved in a new Equation object */</span>
+                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                        index2 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>  
+                        <span style="color:#75715e">// Recursive statement
+</span><span style="color:#75715e"></span>                        finalEquation <span style="color:#f92672">+=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>index1<span style="color:#f92672">,</span> index2<span style="color:#f92672">+</span>1<span style="color:#f92672">),</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printOperations</span><span style="color:#f92672">).</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">();</span>  
+                        index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    finalEquation <span style="color:#f92672">+=</span> charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">];</span>
+                <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>
+            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span>finalEquation<span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#75715e">// If there are no parentheses, &#34;order&#34; does not matter
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span></code></pre></div>
+
       </div>
     </article>
 
@@ -179,7 +254,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        0 Words
+        416 Words
       </p>
 
       <p>

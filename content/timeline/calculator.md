@@ -34,7 +34,7 @@ System.out.println("Output: " + e.solve());
 {{< /highlight >}}
 
 ### Testing outputs
-{{< highlight >}}
+{{< highlight java >}}
 Your expression (+ - / * ^ !): 
 >>> (-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))
 ---------------------

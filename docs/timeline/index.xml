@@ -1,0 +1,582 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Timelines on Rayyan Shaik</title>
+        <link>https://rayyanshaik.com/timeline/</link>
+        <description>Recent content in Timelines on Rayyan Shaik</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Mathematical Expression Evaluator</title>
+            <link>https://rayyanshaik.com/timeline/calculator/</link>
+            <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/calculator/</guid>
+            <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory <code>/Dijkstra</code> was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory <code>Recursive</code>. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method <code>simpleSolve()</code>. Within this same class, the <code>solve()</code> method &ldquo;searches&rdquo; for parenthetical expressions and recursively solves the general equation by calling <code>simpleSolve()</code> multiple times.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Calculator">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Design/write under an efficient workflow with my partner</li>
+<li>Create an expression solver without external resources</li>
+<li>Make the driver code relatively easy to use</li>
+<li>Have the solution be as efficient as possible</li>
+<li>Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/calculator1.jpg"
+         alt="calculator1.jpg" width="600"/> 
+</figure>
+</h2>
+<h3 id="driver-code">Driver code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Output: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">());</span></code></pre></div>
+<h3 id="testing-outputs">Testing outputs</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">(-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">))</span>
+<span style="color:#f92672">---------------------</span>
+Evaluating: <span style="color:#f92672">((-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">)))</span> <span style="color:#f92672">&gt;&gt;&gt;</span>
+<span style="color:#f92672">---------------------</span>
+Output: <span style="color:#f92672">-</span>5<span style="color:#f92672">.</span><span style="color:#a6e22e">444444444444445</span>
+Calculation <span style="color:#a6e22e">time</span> <span style="color:#f92672">(</span>ms<span style="color:#f92672">):</span> 2
+Would you like to exit<span style="color:#f92672">?</span> <span style="color:#f92672">(</span>y<span style="color:#f92672">/</span>n<span style="color:#f92672">)</span> <span style="color:#f92672">:</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> yes</code></pre></div>
+<h3 id="recursive-solve-code">Recursive solve() code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">contains</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+            <span style="color:#75715e">/* This &#39;portion&#39; of the method, recursively breaks down parenthetical statements
+</span><span style="color:#75715e">            into simple expressions. It then takes the outputs of all the
+</span><span style="color:#75715e">            parenthetical statements and calculates the rest of the expression using
+</span><span style="color:#75715e">            simpleSolve() */</span>
+            
+            <span style="color:#66d9ef">int</span> parenthesisCount <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> charEquation <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">();</span>
+            String finalEquation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">int</span> index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">int</span> index2 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+
+            <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> charEquation<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;(&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>index1 <span style="color:#f92672">==</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                        index1 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
+                    <span style="color:#f92672">}</span>
+                    parenthesisCount <span style="color:#f92672">++;</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;)&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    parenthesisCount <span style="color:#f92672">--;</span>
+                    <span style="color:#75715e">/* When the parenthesis count is at 0 on a closed parenthesis
+</span><span style="color:#75715e">                    that means that a parenthetical expression has ended. This is to
+</span><span style="color:#75715e">                    be parsed, and solved in a new Equation object */</span>
+                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                        index2 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>  
+                        <span style="color:#75715e">// Recursive statement
+</span><span style="color:#75715e"></span>                        finalEquation <span style="color:#f92672">+=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>index1<span style="color:#f92672">,</span> index2<span style="color:#f92672">+</span>1<span style="color:#f92672">),</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printOperations</span><span style="color:#f92672">).</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">();</span>  
+                        index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+                    <span style="color:#f92672">}</span>
+                <span style="color:#f92672">}</span>
+                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                    finalEquation <span style="color:#f92672">+=</span> charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">];</span>
+                <span style="color:#f92672">}</span>
+            <span style="color:#f92672">}</span>
+            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span>finalEquation<span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#75715e">// If there are no parentheses, &#34;order&#34; does not matter
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">);</span>
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span></code></pre></div>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Velociraptor Bot</title>
+            <link>https://rayyanshaik.com/timeline/velociraptorbot/</link>
+            <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/velociraptorbot/</guid>
+            <description>Description A multi-purpose discord bot to be used on a private server with my friends. This bot provides basic security for our server with an easily customizable verification system. Important e-learnig and virtual learning commands that can reply with my school&amp;rsquo;s schedule and per class zoom links. The bot can also join voice channels and play different sound effects stored as .mp3 files.
+Github Repository The Github repository can be found here</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A multi-purpose discord bot to be used on a private server with my friends. This bot provides basic security for our server with an easily customizable verification system. Important e-learnig and virtual learning commands that can reply with my school&rsquo;s schedule and per class zoom links. The bot can also join voice channels and play different sound effects stored as .mp3 files.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Velociraptor-Bot">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Functional commands</li>
+<li>Full utilization of discord.py library (structure and code)</li>
+<li>Abstraction through cogs</li>
+<li>Multi-user interactions and long-term data storage regarding many users</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/velobot1.png"
+         alt="velobot1.png" width="350"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/velobot2.png"
+         alt="velobot2.png" width="350"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s2-hbhb"><figure>
+    <img src="../../images/velobot3.png"
+         alt="velobot3.png" width="350"/> 
+</figure>
+</h2>
+<h3 id="velociraptor-bot-readmetxt">Velociraptor Bot readme.txt</h3>
+<p>Due to security and privacy concerns&hellip;<br>
+Some files which are necessary for the bot to run or utilize fully are ommitted from this repository.
+These files/folders include:</p>
+<ul>
+<li>constants.py - stores the API key which is required to run my bot. However, the api key can be changed
+to run the code for any discord bot/application.</li>
+<li>/Sounds - stores .mp3 files (some include personal audio clips)</li>
+</ul>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>discord.py</li>
+<li>asyncio</li>
+<li>json</li>
+<li>collections</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Simple Dungeon Game</title>
+            <link>https://rayyanshaik.com/timeline/simple-dungeon/</link>
+            <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/simple-dungeon/</guid>
+            <description>Description A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Simple-Dungeon/">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Create polished and reusable gui features</li>
+<li>An efficient map editor</li>
+<li>Preloading images and image animations</li>
+<li>An efficient way to send data between server and client<br>
+this was solved through a custom push/pull method</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/simple-dungeon1.gif"
+         alt="simple-dungeon1.gif" width="600"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/simple-dungeon2.gif"
+         alt="simple-dungeon2.gif" width="600"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s2-hbhb"><figure>
+    <img src="../../images/simple-dungeon3.png"
+         alt="simple-dungeon3.png" width="600"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>pygame</li>
+<li>sockets</li>
+<li>pickle</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Agar.io Clone</title>
+            <link>https://rayyanshaik.com/timeline/agario/</link>
+            <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/agario/</guid>
+            <description>Description A complete, scalable clone of the popular web game, agar.io. This project was created purely in python, and utilizes the pygame (GUI) and sockets (web connection) libraries. There are 2 main files used to run code. The first is client.py, which runs the game itself. The second is server.py, which can be run on any network and can open a customizable &amp;ldquo;agar.io&amp;rdquo; server on any port. This game is playable online, and through local networks.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A complete, scalable clone of the popular web game, agar.io. This project was created purely in python, and utilizes the pygame (GUI) and sockets (web connection) libraries. There are 2 main files used to run code. The first is client.py, which runs the game itself. The second is server.py, which can be run on any network and can open a customizable &ldquo;agar.io&rdquo; server on any port. This game is playable online, and through local networks.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Agario-Multiplayer/">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Create a reliable server and client connection with the sockets module</li>
+<li>Create a graphical/GUI game that implemented physics and a dynamic viewport</li>
+<li>Experiment with methods of storing and transfering data</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/agario1.gif"
+         alt="agario1.gif" width="500"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/agario2.png"
+         alt="agario2.png" width="500"/> 
+</figure>
+</h2>
+<h3 id="agario-multiplayer-readmetxt">Agario-Multiplayer readme.txt</h3>
+<h2 id="setup">Setup</h2>
+<ul>
+<li>Run the server.py file. It will prompt you with how you want the game map to be, what ip to use, and what port to run the server on.</li>
+<li>Next run client.py.   An ip and port (localhost is default) can typed into the text box at the bottom.<br>
+Click on the play button to join the server.</li>
+</ul>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>pygame</li>
+<li>sockets</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Smart Rockets</title>
+            <link>https://rayyanshaik.com/timeline/smart-rockets/</link>
+            <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/smart-rockets/</guid>
+            <description>Description This program is a demonstration of a genetic algorithm, with the use of &amp;ldquo;rockets&amp;rdquo; drawn as rectangles. Each &amp;ldquo;rocket&amp;rdquo; has its own dna telling them random directions to accelerate towards. Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle) and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the genetic algorithm, these fitness scores are used to create the next &amp;ldquo;generation&amp;rdquo; of rocket which favors (not absolute) to combine dna of the top performing rockets.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This program is a demonstration of a genetic algorithm, with the use of &ldquo;rockets&rdquo; drawn 
+as rectangles. Each &ldquo;rocket&rdquo; has its own dna telling them random directions to accelerate towards.
+Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle)
+and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the
+genetic algorithm, these fitness scores are used to create the next &ldquo;generation&rdquo; of rocket which
+favors (not absolute) to combine dna of the top performing rockets. This, in turn, simulates evolution,
+with each proceding generation utilizing the top performing &ldquo;genes&rdquo; of their predecessors.</p>
+<p>This particular genetic algorithm also includes &ldquo;Elitism&rdquo;. The highest performing rocket from each generation
+is also chosen to be a part of the next generation (represented by the light blue rocket). 
+This ensures, that there is a &ldquo;check point&rdquo; of sorts - preventing complete deviation from 
+the goal as a result of mutation and poor performing crossovers.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Smart-Rockets">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Implementation of a genetic algorithm</li>
+<li>Efficient manipulation of a large quantity of objects</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/smart-rockets1.gif"
+         alt="agent-maze1.gif" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>Pygame</li>
+</ul>
+<h3 id="smart-rockets-readmemd">Smart-Rockets README.md</h3>
+<p>This is a project designed and inspired from this youtube video:
+<a href="https://www.youtube.com/watch?v=bGz7mv2vD6g">https://www.youtube.com/watch?v=bGz7mv2vD6g</a> by &ldquo;The Coding Train&rdquo;</p>
+<p>While it does follow the original structure of the video, my version of the project
+offers a translation (from javascript to python), demonstration and understanding of 
+geometry (lack of built in drawing/rotation functions), knowledge of OOP programming,
+as well as an understanding and implementation of a genetic algorithm.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Agent-Maze Environment</title>
+            <link>https://rayyanshaik.com/timeline/agent-maze/</link>
+            <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/agent-maze/</guid>
+            <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images       Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for
+pathfinding &ldquo;agent&rdquo; algorithms.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/WPS-Programming/Agent-Maze-Solver">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Practice advanced manipulation of 2d arrays</li>
+<li>Practice GUI efficiency</li>
+<li>Minimalist and attractive graphics</li>
+<li>Object-Oriented approach</li>
+<li>Object reading and writing with pickle library</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/agent-maze1.gif"
+         alt="agent-maze1.gif" width="500"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/agent-maze2.png"
+         alt="agent-maze2.png" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>Pygame</li>
+<li>Numpy</li>
+<li>Pickle</li>
+</ul>
+<h3 id="agent-maze-environment-readmemd">Agent-Maze-Environment README.md</h3>
+<h2 id="creating-a-map">Creating a map</h2>
+<ul>
+<li>Run builder.py</li>
+<li>When finished, press the &ldquo;enter&rdquo; key to save map to &lsquo;map.pkl&rsquo;</li>
+</ul>
+<h2 id="running-the-map">Running the map</h2>
+<ul>
+<li>Run environment.py</li>
+<li>Instructions within environment.py on how to implement agent code.</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Perlin Noise Map Generator</title>
+            <link>https://rayyanshaik.com/timeline/perlinmap/</link>
+            <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/perlinmap/</guid>
+            <description>Description A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &amp;ldquo;color output&amp;rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &ldquo;color output&rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.
+Due to the nature of the calculations, the program is relatively slow (requires ~2-3 seconds to launch); this is partly due to the resolution of the image, and partly due to the constantly generating/updating cloud layer.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Perlin-Map-Generator">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Create a visually pleasing and effective map generator</li>
+<li>Utilize complex numpy operations to practice list/array manipulation</li>
+<li>Work and implement algorithms and equations such as perlin noise and poisson disc sampling.</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/perlinmap2.png"
+         alt="perlinmap2.png" width="500"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/perlinmap3.png"
+         alt="perlinmap3.png" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>pygame</li>
+<li>noise</li>
+<li>numpy</li>
+<li>bridson.poisson_disc_samples</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Boids Flocking Algorithm</title>
+            <link>https://rayyanshaik.com/timeline/boids-flocking/</link>
+            <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/boids-flocking/</guid>
+            <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&rsquo;s positions. Some additional features that I implemented include an &ldquo;infinite border&rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Boids-Flocking">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Implementation of the boids flocking algorithm
+<ul>
+<li>Separation: Steer to avoid contact with other entities</li>
+<li>Alignment: Steer towards the average direction of nearby entities</li>
+<li>Cohesion: Steer towards the average position of all entities</li>
+</ul>
+</li>
+<li>Visually pleasing and easy to understand</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/boids1.gif"
+         alt="boids1.gif" width="600"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>pygame</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Lakerbotics 2020 Code</title>
+            <link>https://rayyanshaik.com/timeline/lakerbotics2020/</link>
+            <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/lakerbotics2020/</guid>
+            <description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>Lakerbotics-1649&rsquo;s robot code, written in java. This code was created from base to suit our robot&rsquo;s needs and the challenge&rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &ldquo;final version&rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/lakerbotics/2020Season/tree/master/SeasonCode/New2020CommandBased">Github repository can be found here</a><br>
+The <a href="https://github.com/lakerbotics">Lakerbotics-1649 Github can be found here</a></p>
+<h3 id="what-were-our-goals-with-this-project">What were our goals with this project?</h3>
+<ul>
+<li>Command based code (commands &amp; subsystems)</li>
+<li>Consistent motor controlling through PID Loops (Proportional-Integral-Derivative Loop Controller)</li>
+<li>Image and target analysis (Using a camera to track targets)</li>
+<li>Timed actions through sensor inputs</li>
+<li>Smooth driving (pruning inputs)</li>
+</ul>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>WPILib</li>
+<li>CTRE Phoenix</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Sorting Visualizer</title>
+            <link>https://rayyanshaik.com/timeline/sorting-visualizer/</link>
+            <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/sorting-visualizer/</guid>
+            <description>Description A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images    Dependencies  Pygame  </description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Sorting-Visualizer">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Custom buttons</li>
+<li>Practice writing sorting algorithms</li>
+<li>Minimalist and attractive graphics</li>
+<li>Object-Oriented approach</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/sortingvisualizer1.gif"
+         alt="sortingvisualizer1.gif" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>Pygame</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Autoclickr</title>
+            <link>https://rayyanshaik.com/timeline/autoclickr/</link>
+            <pubDate>Fri, 28 Jun 2019 12:39:56 +0100</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/autoclickr/</guid>
+            <description>Description A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment builder.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Create a fast and reliable auto clicker Have the script be easy to use and interact with Make the driver code relatively simple for easy changes  Driver code from autoclickr import Autoclickr mult = int(input(&amp;#34;Scale value (threads to be opened): &amp;#34;)) clicker = Autoclickr(True, 0, &amp;#39;left&amp;#39;, &amp;#39;right&amp;#39;,scaled=mult, clickType=0) clicker.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment
+builder.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Autoclickr/https://github.com/WPS-Programming/Agent-Maze-Solver">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Create a fast and reliable auto clicker</li>
+<li>Have the script be easy to use and interact with</li>
+<li>Make the driver code relatively simple for easy changes</li>
+</ul>
+<h3 id="driver-code">Driver code</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> autoclickr <span style="color:#f92672">import</span> Autoclickr
+
+mult <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Scale value (threads to be opened): &#34;</span>))
+
+clicker <span style="color:#f92672">=</span> Autoclickr(True, <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;left&#39;</span>, <span style="color:#e6db74">&#39;right&#39;</span>,scaled<span style="color:#f92672">=</span>mult, clickType<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+clicker<span style="color:#f92672">.</span>run()</code></pre></div>
+<h3 id="autoclickr-readmetxt">Autoclickr readme.txt</h3>
+<h2 id="parameters">PARAMETERS</h2>
+<p>(True, 0, &lsquo;left&rsquo;, &lsquo;right&rsquo;, 0, 1)</p>
+<p>1 - The first parameter indicates whether the clicker is enabled or disabled. It must be defined as enabled (True) to work.<br>
+2 - The second parameter is a time delay (in seconds), between clicks. If this is set to 0, there will be no delay. (Max cps of 10)<br>
+3 - The third parameter takes a key which will be used to enable the clicker (All keys usable in the &lsquo;keyboard&rsquo; library will work)<br>
+4 - The fourth parameter takes a key which will be used to disable the clicker (All keys usable in the &lsquo;keyboard&rsquo; library will work)<br>
+5 - The fifth parameter takes an int which represents the type of click you want (0 = Left Click, 1 = Right Click, All other values will default to 0).<br>
+6 - The sixed parameter refers to &lsquo;scalability&rsquo; or the multiplier. It opens new threads for clicking allowing you to click hyper-fast.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Snake Game Environment</title>
+            <link>https://rayyanshaik.com/timeline/snake-environment/</link>
+            <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/snake-environment/</guid>
+            <description>Description A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &amp;ldquo;play&amp;rdquo; the game. The bar on the right side of the application provides useful development information.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code  Project Images    Dependencies  Pygame  </description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &ldquo;play&rdquo; the game. The bar on the right side of the application provides useful development information.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Snake-Environment">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Practice manipulation of 2d arrays</li>
+<li>Practice GUI efficiency</li>
+<li>Minimalist and attractive graphics</li>
+<li>Future integration with agent code</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/snake-environment1.gif"
+         alt="agent-maze1.gif" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>Pygame</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>A* Pathfinding</title>
+            <link>https://rayyanshaik.com/timeline/astar-pathfinding/</link>
+            <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/astar-pathfinding/</guid>
+            <description>Description An implementation of the A* Pathfinding Algorithm. The logic behind this algorithm is based on the function f(n) = g(n) + h(n). Where the total cost of &amp;ldquo;moving&amp;rdquo; is the sum of the cost of the path to the starting node and the cost as calculated by the heuristic function for the cheapest path from the next node to the goal.
+Github Repository The Github repository can be found here</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>An implementation of the A* Pathfinding Algorithm. The logic behind this algorithm is based on the function <code>f(n) = g(n) + h(n)</code>.
+Where the total cost of &ldquo;moving&rdquo; is the sum of the cost of the path to the starting node and the cost as calculated by the heuristic function for the cheapest path from the next node to the goal.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/A-Pathfinding">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Practice advanced manipulation of 2d arrays</li>
+<li>Practice GUI efficiency</li>
+<li>Object-Oriented approach</li>
+<li>Implentation of nodes, and stepping through nodes (effectively complex linked lists)</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/astar1.gif"
+         alt="/images/astar1.gif" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>Pygame</li>
+</ul>
+<h3 id="a-pathfinding-readmetxt">A* Pathfinding readme.txt</h3>
+<h2 id="usage">Usage:</h2>
+<p>Number Key 1: Cycles through placing the start location, goal location, and walls<br>
+Number Key 2: Clears all walls<br>
+Space Bar: Runs the pathfinding algorithm</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
