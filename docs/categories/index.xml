@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rayyan Shaik</title>
-    <link>rayyanshaik.com/categories/</link>
+    <link>https://rayyanshaik.com/categories/</link>
     <description>Recent content in Categories on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="rayyanshaik.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://rayyanshaik.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
