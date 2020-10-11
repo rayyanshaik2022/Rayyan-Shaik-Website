@@ -6,7 +6,7 @@ publishDate: 2020-10-07
 author: "Rayyan Shaik & Andrew Diab"
 draft: false
 images: []
-tags: ["Java", "Algorithm", "Collaboration"]
+tags: ["Java", "Algorithm", "Collaboration", "Featured"]
 projects: ["Programming Projects"]
 ---
 
@@ -14,7 +14,7 @@ projects: ["Programming Projects"]
 This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory `/Dijkstra` was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory `Recursive`. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method `simpleSolve()`. Within this same class, the `solve()` method "searches" for parenthetical expressions and recursively solves the general equation by calling `simpleSolve()` multiple times.
 
 ### Github Repository
-The [Github repository can be found here](https://github.com/rayyanshaik2022/Calculator/tree/master/src)
+The [Github repository can be found here](https://github.com/rayyanshaik2022/Calculator)
 
 ### What were my goals with this project?
 * Design/write under an efficient workflow with my partner
@@ -27,10 +27,23 @@ The [Github repository can be found here](https://github.com/rayyanshaik2022/Cal
 {{< figure src="../../images/calculator1.jpg" alt="calculator1.jpg" width=600 >}}
 ---
 
-### Recursive Driver code
+### Driver code
 {{< highlight java >}}
 e = new Equation("("+input+")");
 System.out.println("Output: " + e.solve());
+{{< /highlight >}}
+
+### Testing outputs
+{{< highlight >}}
+Your expression (+ - / * ^ !): 
+>>> (-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))
+---------------------
+Evaluating: ((-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))) >>>
+---------------------
+Output: -5.444444444444445
+Calculation time (ms): 2
+Would you like to exit? (y/n) :
+>>> yes
 {{< /highlight >}}
 
 ### Recursive solve() code
