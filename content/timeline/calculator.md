@@ -36,14 +36,14 @@ System.out.println("Output: " + e.solve());
 ### Testing outputs
 {{< highlight java >}}
 Your expression (+ - / * ^ !): 
->>> (-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))
+    (-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))
 ---------------------
 Evaluating: ((-2)((((2+2)*3/9-4)*3-1) + (3) + -1^3)/9 + (-10 - (-3))) >>>
 ---------------------
 Output: -5.444444444444445
 Calculation time (ms): 2
 Would you like to exit? (y/n) :
->>> yes
+    yes
 {{< /highlight >}}
 
 ### Recursive solve() code
