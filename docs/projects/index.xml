@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rayyan Shaik</title>
+    <link>rayyanshaik.com/projects/</link>
+    <description>Recent content in Projects on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="rayyanshaik.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming Projects</title>
+      <link>rayyanshaik.com/projects/programming-projects/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>rayyanshaik.com/projects/programming-projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics Projects</title>
+      <link>rayyanshaik.com/projects/robotics-projects/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>rayyanshaik.com/projects/robotics-projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

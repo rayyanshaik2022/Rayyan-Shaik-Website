@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>java on Rayyan Shaik</title><link>https://rayyanshaik.com/tags/java/</link><description>Recent content in java on Rayyan Shaik</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Mathematical Expression Evaluator</title><link>https://rayyanshaik.com/blog/calculator/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><guid>https://rayyanshaik.com/blog/calculator/</guid><description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description></item><item><title>Lakerbotics 2020 Code</title><link>https://rayyanshaik.com/blog/lakerbotics2020/</link><pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate><guid>https://rayyanshaik.com/blog/lakerbotics2020/</guid><description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Rayyan Shaik</title>
+    <link>rayyanshaik.com/tags/java/</link>
+    <description>Recent content in Java on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="rayyanshaik.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Expression Evaluator</title>
+      <link>rayyanshaik.com/timeline/calculator/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>rayyanshaik.com/timeline/calculator/</guid>
+      <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
+    </item>
+    
+    <item>
+      <title>Lakerbotics 2020 Code</title>
+      <link>rayyanshaik.com/timeline/lakerbotics2020/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>rayyanshaik.com/timeline/lakerbotics2020/</guid>
+      <description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description>
+    </item>
+    
+  </channel>
+</rss>
