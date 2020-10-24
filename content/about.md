@@ -28,7 +28,11 @@ This hyper-link can be used to view my **[Github Repositories](https://github.co
 #### What I want to learn in the future:
 * Javascript and web applications
 * Deep genetic algorithms
+* Q-Learning
+* Applications of AI in robotics
 
 # Contact Information
-#### Learn more and contribute on my [**[GitHub](https://github.com/rayyanshaik2022?tab=repositories)**].  
-#### Email: [[rayyanshaik2022@gmail.com]()]  
+#### Learn more and contribute on my >**[GitHub](https://github.com/rayyanshaik2022?tab=repositories)**. 
+- https://github.com/rayyanshaik2022?tab=repositories
+#### Email: > [rayyanshaik2022@gmail.com](rayyanshaik2022@gmail.com)  
+- rayyanshaik2022@gmail.com

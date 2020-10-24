@@ -5,8 +5,115 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Self-driving Car AI</title>
+            <link>https://rayyanshaik.com/timeline/carai/</link>
+            <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/carai/</guid>
+            <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process   Track Builder    Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Car-Racing-NN">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Implementation and design of neural networks</li>
+<li>Imeplementation and design of a genetic algorithm</li>
+<li>Object oriented design</li>
+<li>Track builder script (to create custom-tailored tracks for the car agents)</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<hr>
+<h4 id="training-process">Training process</h4>
+<figure>
+    <img src="../../images/aicar1.gif"
+         alt="aicar1.gif" width="500"/> 
+</figure>
+
+<h4 id="track-builder">Track Builder</h4>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/aicar2.gif"
+         alt="aicar2.gif" width="500"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<hr>
+<ul>
+<li>Pygame</li>
+<li>Numpy</li>
+<li>Shapely</li>
+</ul>
+<h3 id="car-racing-nn-readmemd">Car-Racing-NN README.md</h3>
+<hr>
+<h4 id="game-content">Game Content</h4>
+<ul>
+<li>This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.</li>
+<li>
+<h4 id="key-design-features">Key Design Features</h4>
+<ul>
+<li><strong>Object Orient Programming (OOP)</strong> for all abstractable features. The Deep Neural Network, Gui and Game are all built as classes for abstraction and ease of implementation.
+<ul>
+<li>Deep Neural Network Classes: <code>Genetic</code>, <code>Population</code></li>
+<li>Game &amp; Gui: <code>Gui</code>, <code>Game</code>, <code>Car</code></li>
+</ul>
+</li>
+<li><strong>Car Mechanics</strong>: The car objects each have their own physics mechanics that allow the &ldquo;front wheels&rdquo; to rotate and move similar to a real car. The cars also each have &ldquo;vision lines&rdquo; that protrude from its center. These &ldquo;vision lines&rdquo; interact with the edges of the track and allow the car to know how close it is from the edge of the track.</li>
+<li><strong>Map Builder</strong>: The map builder was tricky to design at first. It allows you to place down points to form 2 separate polygons - one inside of the other. Eventually, the area in between both polygons is used as the track. The map builder also allows the user to place down checkpoints - these are extremely important for the cars' fitness functions. The checkpoints are created by placing a point where the user clicks, and then uses simple form of 2d ray tracing (similar to a car&rsquo;s vision) to determine a line between both polygons.</li>
+<li><strong>File Reading/Writer</strong>: In order to save data, such as created maps and high-scoring neural networks, I used the libraries <code>pickle</code> and <code>json</code>. The <code>pickle</code> library is used to save objects; in this project I used this to save the numpy objects of the neural networks. The <code>json</code> libray is used to save dictionaries; in this project I used this to save map (track) states.</li>
+<li>The game itself is not designed to run with a GUI active 100% of the time. I created the game so that it could run independently as its own environment and updates as called. However, by design, it is also easy to implement a GUI with the <code>Game</code> class (as implemented in the <code>Gui</code> class).</li>
+</ul>
+</li>
+</ul>
+<h4 id="neural-network">Neural Network</h4>
+<ul>
+<li>In order to create a playable agent for this game, I decided to develop a neural network. This neural network contains perceptrons, layers, and forwards propagation.</li>
+<li>
+<h4 id="network-structure">Network Structure</h4>
+<ul>
+<li>7 (+ 1 bias) input values</li>
+<li>2 Hidden layers, each with (default) 4 perceptrons</li>
+<li>1 output layer with 4 values (each representing an action)</li>
+</ul>
+</li>
+<li>
+<h4 id="forward-propagation">Forward Propagation</h4>
+<ul>
+<li>Used to make the prediction for the next action</li>
+<li><code>tanh()</code> used as the activation function</li>
+</ul>
+</li>
+</ul>
+<h4 id="deep-genetic-algorithm">Deep Genetic Algorithm</h4>
+<ul>
+<li>The Genetic Algorithm is implemented in the <code>Population</code> class which keeps track of networks (through <code>Genetic</code> objects) and their respective car objects. The <code>Population</code> class is responsible for training the neural networks via gentic algorithm - utilizing evaluation, mutation, and crossover.</li>
+<li>
+<h4 id="training-process-1">Training Process</h4>
+<ul>
+<li><strong>Evaluation</strong>: The score of each individual neural network and car pair, is calculated in the <code>Population.evaluate()</code> method. This is the sum of a weighted value for the car&rsquo;s time alive and weighted values for how many checkpoinst the car reached.</li>
+<li><strong>Mutation</strong>: Makes random changes to a list of neural networks through the <code>Population.mutate(pool)</code> method. The method goes through each weight value in a neural network&rsquo;s layer and according to a mutation rate and mutation chance value, the weight value is adjusted.</li>
+<li><strong>Crossover</strong>: Takes a list of networks and randomly combine two networks together <em>n</em> times through the <code>Population.crossover(pool, total_children)</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="learning-resources">Learning Resources</h4>
+<ul>
+<li>The concept and code for this project was developed 100% by myself.
+These are the links to resources that I used to learn about physics, neural networks and genetic algorithms, 
+as well efficiency with the numpy library for creating neural networks</li>
+<li><a href="https://www.youtube.com/watch?v=bGz7mv2vD6g">Coding Challenge #29: Smart Rockets in p5.js</a></li>
+<li><a href="https://www.youtube.com/watch?v=SGxVaptD9Ug&amp;list=LL&amp;index=1&amp;t=746s">Snake AI | Genetic Algorithm | Python</a></li>
+<li><a href="https://www.heatonresearch.com/2017/06/01/hidden-layers.html#:~:text=The%20number%20of%20hidden%20neurons,size%20of%20the%20input%20layer.">The Number of Hidden Layers</a></li>
+<li><a href="https://www.youtube.com/watch?v=kft1AJ9WVDk&amp;t=653s">Create a Simple Neural Network in Python from Scratch</a></li>
+<li><a href="http://engineeringdotnet.blogspot.com/2010/04/simple-2d-car-physics-in-games.html">Simple 2D car steering physics in games</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Mathematical Expression Evaluator</title>
