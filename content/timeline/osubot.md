@@ -1,12 +1,12 @@
 ---
 title: "OsuBot"
 eventname: "An osu! statistics discord bot"
-date: 2021-03-06
-publishDate: 2021-03-06
+date: 2021-01-15
+publishDate: 2021-01-15
 author: "Rayyan Shaik"
 draft: false
 images: []
-tags: ["Python3","Featured"]
+tags: ["Python3", "Featured"]
 projects: ["Programming Projects"]
 ---
 
@@ -46,11 +46,11 @@ the bot had useful and practical commands. I also had to make sure not to "reinv
 
 ### Project Images
 
-{{< figure src="../../images/osubot1.png" alt="osubot1.png" width=350 >}}
+{{< figure src="../../images/osubot1.PNG" alt="osubot1.PNG" width=350 >}}
 ---
-{{< figure src="../../images/osubot2.png" alt="osubot2.png" width=350 >}}
+{{< figure src="../../images/osubot2.PNG" alt="osubot2.PNG" width=350 >}}
 ---
-{{< figure src="../../images/osubot3.png" alt="osubot3.png" width=350 >}}
+{{< figure src="../../images/osubot3.PNG" alt="osubot3.PNG" width=350 >}}
 ---
 
 ### Dependencies

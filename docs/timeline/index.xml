@@ -5,13 +5,13 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>OsuBot</title>
             <link>https://rayyanshaik.com/timeline/osubot/</link>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
             
             <guid>https://rayyanshaik.com/timeline/osubot/</guid>
             <description>Description This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp;amp; gaming platform &amp;ldquo;discord&amp;rdquo;.
@@ -58,18 +58,18 @@ the bot had useful and practical commands. I also had to make sure not to &ldquo
 </ul>
 <h3 id="project-images">Project Images</h3>
 <h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/osubot1.png"
-         alt="osubot1.png" width="350"/> 
+    <img src="../../images/osubot1.PNG"
+         alt="osubot1.PNG" width="350"/> 
 </figure>
 </h2>
 <h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/osubot2.png"
-         alt="osubot2.png" width="350"/> 
+    <img src="../../images/osubot2.PNG"
+         alt="osubot2.PNG" width="350"/> 
 </figure>
 </h2>
 <h2 id="hahahugoshortcode-s2-hbhb"><figure>
-    <img src="../../images/osubot3.png"
-         alt="osubot3.png" width="350"/> 
+    <img src="../../images/osubot3.PNG"
+         alt="osubot3.PNG" width="350"/> 
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
