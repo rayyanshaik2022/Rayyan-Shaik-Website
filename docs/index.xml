@@ -6,7 +6,7 @@
     <description>Recent content on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://rayyanshaik.com/about/</link>
@@ -14,6 +14,16 @@
       
       <guid>https://rayyanshaik.com/about/</guid>
       <description>I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science (score of 5 on AP Exam), a cybersecurity summer course at Embry Riddle (Through a National Security Agency scholarship), and I am also currently enrolled in IB Computer Science (Higher Level).</description>
+    </item>
+    
+    <item>
+      <title>OsuBot</title>
+      <link>https://rayyanshaik.com/timeline/osubot/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/osubot/</guid>
+      <description>Description This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp;amp; gaming platform &amp;ldquo;discord&amp;rdquo;.
+The bot utilizes a few APIs and intuitive web scraping to easily find and calculate generalized and specific statsitics for osu! players. There are several osu! discord bots provide these statistics, however, what makes this bot unique are some of its original commands - notably the o.</description>
     </item>
     
     <item>
@@ -91,15 +101,6 @@ What were my goals with this project?  Practice advanced manipulation of 2d arra
       
       <guid>https://rayyanshaik.com/timeline/perlinmap/</guid>
       <description>Description A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &amp;ldquo;color output&amp;rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.</description>
-    </item>
-    
-    <item>
-      <title>Boids Flocking Algorithm</title>
-      <link>https://rayyanshaik.com/timeline/boids-flocking/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/boids-flocking/</guid>
-      <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
     </item>
     
   </channel>

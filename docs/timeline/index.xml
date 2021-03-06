@@ -5,8 +5,86 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>OsuBot</title>
+            <link>https://rayyanshaik.com/timeline/osubot/</link>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/osubot/</guid>
+            <description>Description This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp;amp; gaming platform &amp;ldquo;discord&amp;rdquo;.
+The bot utilizes a few APIs and intuitive web scraping to easily find and calculate generalized and specific statsitics for osu! players. There are several osu! discord bots provide these statistics, however, what makes this bot unique are some of its original commands - notably the o.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp; gaming platform &ldquo;discord&rdquo;.</p>
+<p>The bot utilizes a few APIs and intuitive web scraping to easily find and calculate generalized and specific statsitics for osu! players. There are several
+osu! discord bots provide these statistics, however, what makes this bot unique are some of its original commands - notably the <code>o.beatmap (name)</code> command, which uses web-scraping to find beatmaps (levels playable in the game) by name search, and the <code>o.practice</code> command, which analyzes a user&rsquo;s plays and recommends beatmaps to play. As of writing this, the bot has ~200 registered users and is exposed to over 80,000 different discord users*.</p>
+<p>*A user does not need to be registered with the bot in order use most of its features.</p>
+<p>This discord bot is also hosted 24/7 on a personal server so that it can be accessed at any time by discord users.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/Osu-Bot-Public">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Functional &amp; useful commands</li>
+<li>Full utilization of discord.py library (structure and code)</li>
+<li>Abstraction through cogs</li>
+<li>Multi-user interactions and long-term data storage regarding many users</li>
+<li>Efficient algorithms to allow for several users to access commands at the same time</li>
+<li>Efficient web-scraping algorithms to minimize API calls and server CPU usage</li>
+</ul>
+<h3 id="challenges-with-this-project">Challenges with this project</h3>
+<ul>
+<li>
+<h4 id="useful-commands">Useful commands</h4>
+</li>
+<li>
+<p>My previous discord, bot &ldquo;Velocirator Bot&rdquo;, was created for personal use and primarly included commands that myself and its limited users would use.
+A challenge with this discord bot however, is that I intended for it to be widely used, and for that to become a reality I had to make sure that
+the bot had useful and practical commands. I also had to make sure not to &ldquo;reinvent the wheel&rdquo; and include several unique commands and options.</p>
+</li>
+<li>
+<h4 id="efficient-algorithms">Efficient Algorithms</h4>
+</li>
+<li>
+<p>A challenge that comes with the bot being widely accessible, is that it needs to actually be able to support the usage of several users at once. Due to this, I had to had take very careful approaches when designing specific (usually web-scraping and API related) algorithms so that they would not overload websites nor my server.</p>
+</li>
+<li>
+<h4 id="persistant-data">Persistant Data</h4>
+</li>
+<li>
+<p>A key feature of this bot is that it allows users to &ldquo;register&rdquo; and save their osu! username to have more convenient access to the bot&rsquo;s commands. To this, data - such as discord IDs and osu! usernames - would have to be saved. For this bot, I chose to represent this data in the <code>.json</code> format and utilize it with the <code>pickle</code> library.</p>
+</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<h2 id="hahahugoshortcode-s0-hbhb"><figure>
+    <img src="../../images/osubot1.png"
+         alt="osubot1.png" width="350"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/osubot2.png"
+         alt="osubot2.png" width="350"/> 
+</figure>
+</h2>
+<h2 id="hahahugoshortcode-s2-hbhb"><figure>
+    <img src="../../images/osubot3.png"
+         alt="osubot3.png" width="350"/> 
+</figure>
+</h2>
+<h3 id="dependencies">Dependencies</h3>
+<ul>
+<li>discord.py</li>
+<li>asyncio</li>
+<li>json</li>
+<li>pickle</li>
+<li>collections</li>
+<li>requests</li>
+<li>BeautifulSoup4</li>
+<li>Selenium</li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Self-driving Car AI</title>

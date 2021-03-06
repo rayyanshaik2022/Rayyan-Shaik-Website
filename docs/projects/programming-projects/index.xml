@@ -6,7 +6,17 @@
     <description>Recent content in Programming Projects on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OsuBot</title>
+      <link>https://rayyanshaik.com/timeline/osubot/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/osubot/</guid>
+      <description>Description This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp;amp; gaming platform &amp;ldquo;discord&amp;rdquo;.
+The bot utilizes a few APIs and intuitive web scraping to easily find and calculate generalized and specific statsitics for osu! players. There are several osu! discord bots provide these statistics, however, what makes this bot unique are some of its original commands - notably the o.</description>
+    </item>
+    
     <item>
       <title>Self-driving Car AI</title>
       <link>https://rayyanshaik.com/timeline/carai/</link>
@@ -91,15 +101,6 @@ What were my goals with this project?  Practice advanced manipulation of 2d arra
       
       <guid>https://rayyanshaik.com/timeline/boids-flocking/</guid>
       <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
-    </item>
-    
-    <item>
-      <title>Lakerbotics 2020 Code</title>
-      <link>https://rayyanshaik.com/timeline/lakerbotics2020/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/lakerbotics2020/</guid>
-      <description>Description Lakerbotics-1649&amp;rsquo;s robot code, written in java. This code was created from base to suit our robot&amp;rsquo;s needs and the challenge&amp;rsquo;s (Infinite Recharge) demands. Months of testing and research was spent learning the libraries required, and the &amp;ldquo;final version&amp;rdquo; of the robot code was developed over nearly 2 months. I have written the majority of this code (under the Lakerbotics Github account), and the overall project was a group effort with 2 other team members.</description>
     </item>
     
   </channel>
