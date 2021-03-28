@@ -6,7 +6,18 @@
     <description>Recent content in Featured on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2048 AI</title>
+      <link>https://rayyanshaik.com/timeline/2048ai/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+    </item>
+    
     <item>
       <title>OsuBot</title>
       <link>https://rayyanshaik.com/timeline/osubot/</link>

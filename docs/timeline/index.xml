@@ -5,8 +5,118 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>2048 AI</title>
+            <link>https://rayyanshaik.com/timeline/2048ai/</link>
+            <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+            <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/2048-Ai">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Implementation of Monte Carlo simulations</li>
+<li>A clean and efficient clone of the game 2048. (Resembles the original as closely as possible)</li>
+<li>Object oriented design</li>
+<li>A PyQT5 gui and packaging as an app to have easily executable code.</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<hr>
+<h4 id="application-demonstration">Application Demonstration</h4>
+<figure>
+    <img src="../../images/2048-demo1.gif"
+         alt="2048-demo1.gif" width="600"/> 
+</figure>
+
+<h4 id="showcase-run-5x-speed">Showcase Run (5x speed)</h4>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure>
+    <img src="../../images/2048-demo2.gif"
+         alt="2048-demo2.gif" width="600"/> 
+</figure>
+</h2>
+<h3 id="2048-ai-readmemd">2048-AI README.md</h3>
+<h4 id="running-the-application-mac-only">Running the Application (Mac only)</h4>
+<ul>
+<li>Within this repository, under <code>\dist</code>, there is a <code>.app</code> file named: <code>2048 AI</code>. On a Mac computer, this file alone can be downloaded and run.</li>
+<li>Runtime Troubleshooting
+<ul>
+<li>Unverfied Developer: Right click application and then select &ldquo;open&rdquo;. This should prompt you with an option to open the application anyways</li>
+<li>Application not opening: During its first 1-2 times running, the application takes around 5-6 seconds to load. It may also require you to &ldquo;open&rdquo; the app a few times on its initial run</li>
+</ul>
+</li>
+</ul>
+<h4 id="executing-the-code">Executing the code</h4>
+<ul>
+<li>Dependencies Required:
+<ul>
+<li>PyQT5</li>
+<li>Pygame 2.1 (or newer)</li>
+<li>numpy</li>
+</ul>
+</li>
+<li>File to run: <code>form.py</code></li>
+</ul>
+<h4 id="what-is-2048-game">What is 2048 Game?</h4>
+<ul>
+<li>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number <code>2048</code>.</li>
+<li>Starts start with values of <code>2</code> or <code>4</code> and can be shifted <code>up</code>, <code>down</code>, <code>left</code>, or <code>right</code>. When two tiles collide, their values are combined into one new tile.</li>
+<li>After every &ldquo;turn&rdquo; or &ldquo;move&rdquo;, a new tile is randomly placed in an empty tile slot.</li>
+</ul>
+<h4 id="project-content">Project Content</h4>
+<ul>
+<li>This project emulates the game of 2048 and applies Monte Carlo Simulations to have an AI, reach the 2048 (and potentially the 4096) tile.</li>
+</ul>
+<h4 id="key-components">Key Components</h4>
+<ul>
+<li>
+<p><strong>2048 Game Logic</strong></p>
+<ul>
+<li>The mechanics of this game primarily consist of &ldquo;spawning&rdquo; tiles in random locations, shifting tiles in a direction depending on input, and merging tiles that collide.</li>
+<li>The shifting/movement code on it&rsquo;s own was not very difficult, but when combined with the fact that tiles could merge mid-shift, was a challange to implement</li>
+</ul>
+</li>
+<li>
+<p><strong>GUI</strong></p>
+<ul>
+<li>This program implements 2 seperate GUI features. A simple GUI run through PyQT5 is initially launched - from this panel, certain run-time variables can be adjusted. The 2048 simulation is run through pygame to draw the game in a neat and colorful manner.</li>
+<li>The PyQT5 gui/panel was created with the applications QT-Creator and Qt-Designer. Using these apps, my design was compiled into the <code>form.ui</code> file, from which <code>form.py</code> was auto-generated. Additional changes have been made to <code>form.py</code> to account for inputs and pygame implementation.</li>
+<li>The file <code>rounded_rect.py</code> allows rounded rectangles to be easily created in pygame (not natively supported). This file was not created by myself.</li>
+</ul>
+</li>
+<li>
+<p><strong>Monte Carlo Logic</strong></p>
+<ul>
+<li>Since tiles can spawn in random locations, I found 2048 to be a difficult problem to tackle with convetional genetic algorithm approaches. The Monte Carlo approach seemed especially desirable at first due to its potential for larges samples and for its &ldquo;consideration&rdquo; of random decisions. This means that it becomes good at accounting for the random tile placement at the end of each move.</li>
+<li>Given the current state of the board/all tiles, an adjustable number of simulations <code>N</code> are run for each possible move - <code>up</code>, <code>down</code>, <code>left</code>, <code>right</code>. So, each move runs <code>N</code> simulations until their simulation reaches an end state. Then, each moves' simulation scores are averaged, and the move with the highest score is selected as the next move to play.</li>
+</ul>
+</li>
+</ul>
+<h4 id="fun">Fun</h4>
+<ul>
+<li><strong>Themes</strong>
+<ul>
+<li>To put my own spin on this game, I included an option for custom color combinatinos or &ldquo;themes&rdquo;. Some themes included are: <code>Tokyo Night</code>, <code>Tortoise</code>, and <code>Dracula</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="learning-resources">Learning Resources</h4>
+<ul>
+<li>The concept and code for this project was developed 100% by myself.
+These are the links to resources that I used to learn about the original game and monte carlo simulations</li>
+<li><a href="https://play2048.co/">2048 Game</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo Method Wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=7ESK5SaP-bc">Monte Carlo Simulations - MarbleScience</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>OsuBot</title>

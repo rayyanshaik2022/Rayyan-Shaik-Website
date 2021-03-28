@@ -6,7 +6,18 @@
     <description>Recent content in Gui on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/gui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/gui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2048 AI</title>
+      <link>https://rayyanshaik.com/timeline/2048ai/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+    </item>
+    
     <item>
       <title>Self-driving Car AI</title>
       <link>https://rayyanshaik.com/timeline/carai/</link>
@@ -94,16 +105,6 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
       <description>Description A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &amp;ldquo;play&amp;rdquo; the game. The bar on the right side of the application provides useful development information.
 Github Repository The Github repository can be found here
 What were my goals with this project?  Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code  Project Images    Dependencies  Pygame  </description>
-    </item>
-    
-    <item>
-      <title>A* Pathfinding</title>
-      <link>https://rayyanshaik.com/timeline/astar-pathfinding/</link>
-      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/astar-pathfinding/</guid>
-      <description>Description An implementation of the A* Pathfinding Algorithm. The logic behind this algorithm is based on the function f(n) = g(n) + h(n). Where the total cost of &amp;ldquo;moving&amp;rdquo; is the sum of the cost of the path to the starting node and the cost as calculated by the heuristic function for the cheapest path from the next node to the goal.
-Github Repository The Github repository can be found here</description>
     </item>
     
   </channel>

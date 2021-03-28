@@ -6,7 +6,7 @@
     <description>Recent content on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://rayyanshaik.com/about/</link>
@@ -14,6 +14,17 @@
       
       <guid>https://rayyanshaik.com/about/</guid>
       <description>I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science (score of 5 on AP Exam), a cybersecurity summer course at Embry Riddle (Through a National Security Agency scholarship), and I am also currently enrolled in IB Computer Science (Higher Level).</description>
+    </item>
+    
+    <item>
+      <title>2048 AI</title>
+      <link>https://rayyanshaik.com/timeline/2048ai/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
     </item>
     
     <item>
@@ -92,15 +103,6 @@ Github Repository The Github repository can be found here</description>
       <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
 What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images       Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
-    </item>
-    
-    <item>
-      <title>Perlin Noise Map Generator</title>
-      <link>https://rayyanshaik.com/timeline/perlinmap/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/perlinmap/</guid>
-      <description>Description A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &amp;ldquo;color output&amp;rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.</description>
     </item>
     
   </channel>

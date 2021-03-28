@@ -6,7 +6,18 @@
     <description>Recent content in Programming Projects on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2048 AI</title>
+      <link>https://rayyanshaik.com/timeline/2048ai/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
+Github Repository The Github repository can be found here
+What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+    </item>
+    
     <item>
       <title>OsuBot</title>
       <link>https://rayyanshaik.com/timeline/osubot/</link>
@@ -92,15 +103,6 @@ What were my goals with this project?  Practice advanced manipulation of 2d arra
       
       <guid>https://rayyanshaik.com/timeline/perlinmap/</guid>
       <description>Description A map generating script primarly using the perlin noise equations. This program utilizes a the 2d perlin noise equation to generate topographic values in a 2d list. These values are normalized and assigned a &amp;ldquo;color output&amp;rdquo; depending on their value (for example, a low value would mean blue or water, while a high value might be grey for mountains). This program also uses poisson disc sampling to randomly generate trees across the landmasses.</description>
-    </item>
-    
-    <item>
-      <title>Boids Flocking Algorithm</title>
-      <link>https://rayyanshaik.com/timeline/boids-flocking/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/boids-flocking/</guid>
-      <description>Description My implementation of the boids flocking algorithm in pygame. It uses arrows - representative of birds - as enties that move around and account for each other&amp;rsquo;s positions. Some additional features that I implemented include an &amp;ldquo;infinite border&amp;rdquo; - meaning borders transport entities to opposite ends of the map. The entities also spawn with random hues (color), and when several enities converge into a group, their colors average out. When these groups disband, the entities slowly revert to their original color.</description>
     </item>
     
   </channel>
