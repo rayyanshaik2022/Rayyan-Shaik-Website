@@ -6,14 +6,24 @@
     <description>Recent content on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://rayyanshaik.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/about/</guid>
-      <description>I am Rayyan Shaik, a 16 year old Junior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science (score of 5 on AP Exam), a cybersecurity summer course at Embry Riddle (Through a National Security Agency scholarship), and I am also currently enrolled in IB Computer Science (Higher Level).</description>
+      <description>I am Rayyan Shaik, a 17 year old Senior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science (score of 5 on AP Exam), a cybersecurity summer course at Embry Riddle (Through a National Security Agency scholarship), and I am also currently enrolled in IB Computer Science (Higher Level).</description>
+    </item>
+    
+    <item>
+      <title>3D Engine</title>
+      <link>https://rayyanshaik.com/timeline/3d-engine/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
+      <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
+Github Repository The Github repository can be found here</description>
     </item>
     
     <item>
@@ -45,7 +55,7 @@ The bot utilizes a few APIs and intuitive web scraping to easily find and calcul
       <guid>https://rayyanshaik.com/timeline/carai/</guid>
       <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process   Track Builder    Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
+What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
     </item>
     
     <item>
@@ -92,17 +102,6 @@ Github Repository The Github repository can be found here</description>
       
       <guid>https://rayyanshaik.com/timeline/smart-rockets/</guid>
       <description>Description This program is a demonstration of a genetic algorithm, with the use of &amp;ldquo;rockets&amp;rdquo; drawn as rectangles. Each &amp;ldquo;rocket&amp;rdquo; has its own dna telling them random directions to accelerate towards. Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle) and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the genetic algorithm, these fitness scores are used to create the next &amp;ldquo;generation&amp;rdquo; of rocket which favors (not absolute) to combine dna of the top performing rockets.</description>
-    </item>
-    
-    <item>
-      <title>Agent-Maze Environment</title>
-      <link>https://rayyanshaik.com/timeline/agent-maze/</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/agent-maze/</guid>
-      <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
-Github Repository The Github repository can be found here
-What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images       Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
     </item>
     
   </channel>

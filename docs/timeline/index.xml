@@ -5,8 +5,95 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>3D Engine</title>
+            <link>https://rayyanshaik.com/timeline/3d-engine/</link>
+            <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
+            <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
+Github Repository The Github repository can be found here</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for
+the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that
+it is easy to utilize and understand from a high level perspective.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/3D-Engine">Github repository can be found here</a></p>
+<h3 id="what-does-this-project-feature">What does this project feature?</h3>
+<ul>
+<li>Render custom objects by vertices, poly lines (edges), and faces</li>
+<li>Load and view <code>.obj</code> 3D files</li>
+<li>Lighting/light source implementation</li>
+<li>Perspective camera view</li>
+<li>Object rotations and translations</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<hr>
+<h4 id="rendering-3d-object-by-vertices-and-lines">Rendering 3d object by vertices and lines</h4>
+<figure><img src="../../images/line-render.gif"
+         alt="line-render.gif" width="600"/>
+</figure>
+
+<h4 id="rending-3d-object-by-faces-with-light-source">Rending 3d object by faces (with light source)</h4>
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/face-render.gif"
+         alt="face-render.gif" width="600"/>
+</figure>
+</h2>
+<h4 id="key-components-by-file">Key Components by File</h4>
+<ul>
+<li>
+<p><strong>vector3.py | Vector3</strong></p>
+<ul>
+<li><code>vector3.py</code> features the <code>Vector3</code> class. This is used (as the name implies) to represent a 3 dimensional vector. Nearly every 3 dimensional vertex is represented by an object of this class.</li>
+<li>A <code>Vector3</code> object stores its (x, y, z) values in a numpy array. This allows for faster mathematical operations to be used on the the values.</li>
+</ul>
+</li>
+<li>
+<p><strong>camera.py | Camera</strong></p>
+<ul>
+<li><code>camera.py</code> features the <code>Camera</code> class. An object of this class represents a perspective camera, and is used to rotate and translate every existing vertex by its own rotation and position. It also converts the 3 dimensional point to a 2 dimensional cartesian plane that can be drawn on screen</li>
+<li>The bulk of the math is computed within the <code>orient_vector()</code> method. It translates a point, then rotates it by the cameras current rotation, applies a projection matrix, perspective matrix, and then an offset matrix. The resulting point remains in (x, y, z) form, where &lsquo;(x, y)&rsquo; can be drawn on the screen and &lsquo;z&rsquo; is the depth from the from the front of the camera&rsquo;s viewing angle.</li>
+</ul>
+</li>
+<li>
+<p><strong>environment.py | Environment</strong></p>
+<ul>
+<li><code>environment.py</code> features the <code>Environment</code> class. An object of this class acts as the &ldquo;3 dimensional space manager&rdquo;. It is designed to help
+keep track of loaded 3D objects and meshes.</li>
+<li>Add/remove objects, translate/rotate objects, etc</li>
+<li><code>draw_object()</code> is a method that calculates the position of points, lines, faces, and lighting and returns the values in an easy to draw format.</li>
+</ul>
+</li>
+<li>
+<p><strong>mesh.py | Mesh &amp; MeshReader</strong></p>
+</li>
+<li>
+<p><code>mesh.py</code> features the <code>Mesh</code> class. An object of this class stores a mesh (vertices, lines, faces) from a loaded <code>.obj</code> 3D object.</p>
+</li>
+<li>
+<p><code>mesh.py</code> features the <code>MeshReader</code> class. An object of this class can be used to read the raw data from <code>.obj</code> files and store them in a <code>Mesh</code> object.</p>
+</li>
+<li>
+<p><strong>main.py | Gui</strong></p>
+</li>
+<li>
+<p><code>main.py</code> features the execution code and the <code>Gui</code> class. This class handles the pygame window and drawing mechanics.</p>
+</li>
+</ul>
+<h4 id="learning-resources">Learning Resources</h4>
+<ul>
+<li>The concept and code for this project was developed 100% by myself.
+These are the links to resources that I used to learn about the math behind 3D Engines</li>
+<li><a href="https://en.wikipedia.org/wiki/3D_projection">3D Projection Wikipedia</a></li>
+<li><a href="https://www.bbc.co.uk/bitesize/guides/zs4mk2p/revision/7">Scientific calculations - distance and light intensity - BBC</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">Wavefront .obj file Wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=mpTl003EXCY">The Camera Transform - UC Davis Academics</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>2048 AI</title>
@@ -31,15 +118,13 @@ What were my goals with this project?  Implementation of Monte Carlo simulations
 <h3 id="project-images">Project Images</h3>
 <hr>
 <h4 id="application-demonstration">Application Demonstration</h4>
-<figure>
-    <img src="../../images/2048-demo1.gif"
-         alt="2048-demo1.gif" width="600"/> 
+<figure><img src="../../images/2048-demo1.gif"
+         alt="2048-demo1.gif" width="600"/>
 </figure>
 
 <h4 id="showcase-run-5x-speed">Showcase Run (5x speed)</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/2048-demo2.gif"
-         alt="2048-demo2.gif" width="600"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/2048-demo2.gif"
+         alt="2048-demo2.gif" width="600"/>
 </figure>
 </h2>
 <h3 id="2048-ai-readmemd">2048-AI README.md</h3>
@@ -167,19 +252,16 @@ the bot had useful and practical commands. I also had to make sure not to &ldquo
 </li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/osubot1.PNG"
-         alt="osubot1.PNG" width="350"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/osubot1.PNG"
+         alt="osubot1.PNG" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/osubot2.PNG"
-         alt="osubot2.PNG" width="350"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/osubot2.PNG"
+         alt="osubot2.PNG" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure>
-    <img src="../../images/osubot3.PNG"
-         alt="osubot3.PNG" width="350"/> 
+<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/osubot3.PNG"
+         alt="osubot3.PNG" width="350"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -204,7 +286,7 @@ the bot had useful and practical commands. I also had to make sure not to &ldquo
             <guid>https://rayyanshaik.com/timeline/carai/</guid>
             <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process   Track Builder    Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
+What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -219,15 +301,13 @@ What were my goals with this project?  Implementation and design of neural netwo
 <h3 id="project-images">Project Images</h3>
 <hr>
 <h4 id="training-process">Training process</h4>
-<figure>
-    <img src="../../images/aicar1.gif"
-         alt="aicar1.gif" width="500"/> 
+<figure><img src="../../images/aicar1.gif"
+         alt="aicar1.gif" width="500"/>
 </figure>
 
 <h4 id="track-builder">Track Builder</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/aicar2.gif"
-         alt="aicar2.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/aicar2.gif"
+         alt="aicar2.gif" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -323,16 +403,15 @@ as well efficiency with the numpy library for creating neural networks</li>
 <li>Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/calculator1.jpg"
-         alt="calculator1.jpg" width="600"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/calculator1.jpg"
+         alt="calculator1.jpg" width="600"/>
 </figure>
 </h2>
 <h3 id="driver-code">Driver code</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
 System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Output: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">());</span></code></pre></div>
 <h3 id="testing-outputs">Testing outputs</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
     <span style="color:#f92672">(-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">))</span>
 <span style="color:#f92672">---------------------</span>
 Evaluating: <span style="color:#f92672">((-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">)))</span> <span style="color:#f92672">&gt;&gt;&gt;</span>
@@ -342,7 +421,7 @@ Calculation <span style="color:#a6e22e">time</span> <span style="color:#f92672">
 Would you like to exit<span style="color:#f92672">?</span> <span style="color:#f92672">(</span>y<span style="color:#f92672">/</span>n<span style="color:#f92672">)</span> <span style="color:#f92672">:</span>
     yes</code></pre></div>
 <h3 id="recursive-solve-code">Recursive solve() code</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">contains</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
             <span style="color:#75715e">/* This &#39;portion&#39; of the method, recursively breaks down parenthetical statements
 </span><span style="color:#75715e">            into simple expressions. It then takes the outputs of all the
@@ -408,19 +487,16 @@ Github Repository The Github repository can be found here</description>
 <li>Multi-user interactions and long-term data storage regarding many users</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/velobot1.png"
-         alt="velobot1.png" width="350"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/velobot1.png"
+         alt="velobot1.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/velobot2.png"
-         alt="velobot2.png" width="350"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/velobot2.png"
+         alt="velobot2.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure>
-    <img src="../../images/velobot3.png"
-         alt="velobot3.png" width="350"/> 
+<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/velobot3.png"
+         alt="velobot3.png" width="350"/>
 </figure>
 </h2>
 <h3 id="velociraptor-bot-readmetxt">Velociraptor Bot readme.txt</h3>
@@ -462,19 +538,16 @@ to run the code for any discord bot/application.</li>
 this was solved through a custom push/pull method</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/simple-dungeon1.gif"
-         alt="simple-dungeon1.gif" width="600"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/simple-dungeon1.gif"
+         alt="simple-dungeon1.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/simple-dungeon2.gif"
-         alt="simple-dungeon2.gif" width="600"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/simple-dungeon2.gif"
+         alt="simple-dungeon2.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure>
-    <img src="../../images/simple-dungeon3.png"
-         alt="simple-dungeon3.png" width="600"/> 
+<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/simple-dungeon3.png"
+         alt="simple-dungeon3.png" width="600"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -504,14 +577,12 @@ this was solved through a custom push/pull method</li>
 <li>Experiment with methods of storing and transfering data</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/agario1.gif"
-         alt="agario1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/agario1.gif"
+         alt="agario1.gif" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/agario2.png"
-         alt="agario2.png" width="500"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/agario2.png"
+         alt="agario2.png" width="500"/>
 </figure>
 </h2>
 <h3 id="agario-multiplayer-readmetxt">Agario-Multiplayer readme.txt</h3>
@@ -556,9 +627,8 @@ the goal as a result of mutation and poor performing crossovers.</p>
 <li>Efficient manipulation of a large quantity of objects</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/smart-rockets1.gif"
-         alt="agent-maze1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/smart-rockets1.gif"
+         alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -583,7 +653,7 @@ as well as an understanding and implementation of a genetic algorithm.</p>
             <guid>https://rayyanshaik.com/timeline/agent-maze/</guid>
             <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images       Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
+What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images     Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for
 pathfinding &ldquo;agent&rdquo; algorithms.</p>
@@ -598,14 +668,12 @@ pathfinding &ldquo;agent&rdquo; algorithms.</p>
 <li>Object reading and writing with pickle library</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/agent-maze1.gif"
-         alt="agent-maze1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/agent-maze1.gif"
+         alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/agent-maze2.png"
-         alt="agent-maze2.png" width="500"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/agent-maze2.png"
+         alt="agent-maze2.png" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -647,14 +715,12 @@ Due to the nature of the calculations, the program is relatively slow (requires 
 <li>Work and implement algorithms and equations such as perlin noise and poisson disc sampling.</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/perlinmap2.png"
-         alt="perlinmap2.png" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/perlinmap2.png"
+         alt="perlinmap2.png" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure>
-    <img src="../../images/perlinmap3.png"
-         alt="perlinmap3.png" width="500"/> 
+<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/perlinmap3.png"
+         alt="perlinmap3.png" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -690,9 +756,8 @@ Due to the nature of the calculations, the program is relatively slow (requires 
 <li>Visually pleasing and easy to understand</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/boids1.gif"
-         alt="boids1.gif" width="600"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/boids1.gif"
+         alt="boids1.gif" width="600"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -738,7 +803,7 @@ The <a href="https://github.com/lakerbotics">Lakerbotics-1649 Github can be foun
             <guid>https://rayyanshaik.com/timeline/sorting-visualizer/</guid>
             <description>Description A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images    Dependencies  Pygame  </description>
+What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images   Dependencies  Pygame  </description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -751,9 +816,8 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
 <li>Object-Oriented approach</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/sortingvisualizer1.gif"
-         alt="sortingvisualizer1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/sortingvisualizer1.gif"
+         alt="sortingvisualizer1.gif" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -766,7 +830,7 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
         <item>
             <title>Autoclickr</title>
             <link>https://rayyanshaik.com/timeline/autoclickr/</link>
-            <pubDate>Fri, 28 Jun 2019 12:39:56 +0100</pubDate>
+            <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
             
             <guid>https://rayyanshaik.com/timeline/autoclickr/</guid>
             <description>Description A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment builder.
@@ -784,11 +848,11 @@ builder.</p>
 <li>Make the driver code relatively simple for easy changes</li>
 </ul>
 <h3 id="driver-code">Driver code</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> autoclickr <span style="color:#f92672">import</span> Autoclickr
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> autoclickr <span style="color:#f92672">import</span> Autoclickr
 
 mult <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Scale value (threads to be opened): &#34;</span>))
 
-clicker <span style="color:#f92672">=</span> Autoclickr(True, <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;left&#39;</span>, <span style="color:#e6db74">&#39;right&#39;</span>,scaled<span style="color:#f92672">=</span>mult, clickType<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+clicker <span style="color:#f92672">=</span> Autoclickr(<span style="color:#66d9ef">True</span>, <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;left&#39;</span>, <span style="color:#e6db74">&#39;right&#39;</span>,scaled<span style="color:#f92672">=</span>mult, clickType<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
 clicker<span style="color:#f92672">.</span>run()</code></pre></div>
 <h3 id="autoclickr-readmetxt">Autoclickr readme.txt</h3>
 <h2 id="parameters">PARAMETERS</h2>
@@ -810,7 +874,7 @@ clicker<span style="color:#f92672">.</span>run()</code></pre></div>
             <guid>https://rayyanshaik.com/timeline/snake-environment/</guid>
             <description>Description A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &amp;ldquo;play&amp;rdquo; the game. The bar on the right side of the application provides useful development information.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code  Project Images    Dependencies  Pygame  </description>
+What were my goals with this project?  Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code  Project Images   Dependencies  Pygame  </description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &ldquo;play&rdquo; the game. The bar on the right side of the application provides useful development information.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -823,9 +887,8 @@ What were my goals with this project?  Practice manipulation of 2d arrays Practi
 <li>Future integration with agent code</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/snake-environment1.gif"
-         alt="agent-maze1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/snake-environment1.gif"
+         alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>
@@ -856,9 +919,8 @@ Where the total cost of &ldquo;moving&rdquo; is the sum of the cost of the path 
 <li>Implentation of nodes, and stepping through nodes (effectively complex linked lists)</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure>
-    <img src="../../images/astar1.gif"
-         alt="/images/astar1.gif" width="500"/> 
+<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/astar1.gif"
+         alt="/images/astar1.gif" width="500"/>
 </figure>
 </h2>
 <h3 id="dependencies">Dependencies</h3>

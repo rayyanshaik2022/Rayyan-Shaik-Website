@@ -1,8 +1,8 @@
 ---
 title: "Autoclickr"
 eventname: "An autoclicker script"
-date: 2019-06-28T12:39:56+01:00
-publishDate: 2019-06-28T12:39:56+01:00
+date: 2019-06-28
+publishDate: 2019-06-28
 author: "Rayyan Shaik"
 draft: false
 images: []
