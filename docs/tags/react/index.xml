@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Rayyan Shaik</title>
+    <link>https://rayyanshaik.com/tags/react/</link>
+    <description>Recent content in React on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Clone</title>
+      <link>https://rayyanshaik.com/timeline/twitter-clone/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/twitter-clone/</guid>
+      <description>Description This website is a clone / primary functionality-complete version of the popular social media site &amp;ldquo;Twitter&amp;rdquo;. It features secure authentication, a robust and nearly identical UI, and a backend implemented purely through cloud/serverless functions.
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Utilizing Google Cloud Products, and cloud/serverless functions UI practice and frontend-library usage Gain a deeper understanding of React state and query management Twitter-clone README.</description>
+    </item>
+    
+  </channel>
+</rss>

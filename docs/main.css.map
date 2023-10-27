@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/101pa/Desktop/Advanced Python/Repositories/Rayyan Shaik Website",
+	"sourceRoot": "C:/Users/101pa/OneDrive/Documents/Programming/Repositories/Rayyan-Shaik-Website",
 	"sources": [
 		"themes/hugo-theme-timeline/assets/scss/main.scss",
 		"themes/hugo-theme-timeline/assets/scss/_normalize.scss",

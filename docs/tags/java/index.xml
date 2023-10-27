@@ -5,8 +5,18 @@
     <link>https://rayyanshaik.com/tags/java/</link>
     <description>Recent content in Java on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2048 AI</title>
+      <link>https://rayyanshaik.com/timeline/2048ai/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations. This project in particular uses python, however I created two versions (one in python, one in java) to compare runtime speeds.
+Github Repository The Github repository can be found here</description>
+    </item>
+    
     <item>
       <title>Mathematical Expression Evaluator</title>
       <link>https://rayyanshaik.com/timeline/calculator/</link>

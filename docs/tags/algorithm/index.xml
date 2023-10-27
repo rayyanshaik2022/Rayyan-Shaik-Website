@@ -5,7 +5,7 @@
     <link>https://rayyanshaik.com/tags/algorithm/</link>
     <description>Recent content in Algorithm on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical Expression Evaluator</title>
@@ -42,7 +42,7 @@
       <guid>https://rayyanshaik.com/timeline/sorting-visualizer/</guid>
       <description>Description A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images   Dependencies  Pygame  </description>
+What were my goals with this project? Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach Project Images Dependencies Pygame </description>
     </item>
     
     <item>

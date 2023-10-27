@@ -5,37 +5,50 @@
     <link>https://rayyanshaik.com/tags/featured/</link>
     <description>Recent content in Featured on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3D Engine</title>
-      <link>https://rayyanshaik.com/timeline/3d-engine/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Twitter Clone</title>
+      <link>https://rayyanshaik.com/timeline/twitter-clone/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
-      <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
-Github Repository The Github repository can be found here</description>
+      <guid>https://rayyanshaik.com/timeline/twitter-clone/</guid>
+      <description>Description This website is a clone / primary functionality-complete version of the popular social media site &amp;ldquo;Twitter&amp;rdquo;. It features secure authentication, a robust and nearly identical UI, and a backend implemented purely through cloud/serverless functions.
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Utilizing Google Cloud Products, and cloud/serverless functions UI practice and frontend-library usage Gain a deeper understanding of React state and query management Twitter-clone README.</description>
+    </item>
+    
+    <item>
+      <title>Admin Dashboard</title>
+      <link>https://rayyanshaik.com/timeline/admin-dashboard/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/admin-dashboard/</guid>
+      <description>Description This website is a single-page showcase of my frontend design skills with only HTML and CSS. There are animations and interactibles, but the dashboard is just a demo and is not utilized further. (This webpage was fully designed and built by me)
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Having a completely responseive UI Practicing simple animations and color schemes admin-dashboard README.</description>
     </item>
     
     <item>
       <title>2048 AI</title>
       <link>https://rayyanshaik.com/timeline/2048ai/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
-      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
-Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations. This project in particular uses python, however I created two versions (one in python, one in java) to compare runtime speeds.
+Github Repository The Github repository can be found here</description>
     </item>
     
     <item>
-      <title>OsuBot</title>
-      <link>https://rayyanshaik.com/timeline/osubot/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <title>3D Engine</title>
+      <link>https://rayyanshaik.com/timeline/3d-engine/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://rayyanshaik.com/timeline/osubot/</guid>
-      <description>Description This is a discord bot designed to provide easily accessible statistics for the game osu! - a rhythm game with a wide player base. This bot can be used on the messaging &amp;amp; gaming platform &amp;ldquo;discord&amp;rdquo;.
-The bot utilizes a few APIs and intuitive web scraping to easily find and calculate generalized and specific statsitics for osu! players. There are several osu! discord bots provide these statistics, however, what makes this bot unique are some of its original commands - notably the o.</description>
+      <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
+      <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
+Github Repository The Github repository can be found here</description>
     </item>
     
     <item>
@@ -46,16 +59,7 @@ The bot utilizes a few APIs and intuitive web scraping to easily find and calcul
       <guid>https://rayyanshaik.com/timeline/carai/</guid>
       <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
-    </item>
-    
-    <item>
-      <title>Mathematical Expression Evaluator</title>
-      <link>https://rayyanshaik.com/timeline/calculator/</link>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/calculator/</guid>
-      <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README.</description>
     </item>
     
     <item>

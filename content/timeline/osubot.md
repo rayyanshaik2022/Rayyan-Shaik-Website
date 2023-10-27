@@ -6,7 +6,7 @@ publishDate: 2021-01-15
 author: "Rayyan Shaik"
 draft: false
 images: []
-tags: ["Python3", "Featured"]
+tags: ["Python3"]
 projects: ["Programming Projects"]
 ---
 

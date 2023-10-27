@@ -6,7 +6,7 @@ publishDate: 2020-10-07
 author: "Rayyan Shaik & Andrew Diab"
 draft: false
 images: []
-tags: ["Java", "Algorithm", "Collaboration", "Featured"]
+tags: ["Java", "Algorithm", "Collaboration"]
 projects: ["Programming Projects"]
 ---
 

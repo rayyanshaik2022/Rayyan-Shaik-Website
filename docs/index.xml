@@ -5,36 +5,60 @@
     <link>https://rayyanshaik.com/</link>
     <description>Recent content on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://rayyanshaik.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/about/</guid>
-      <description>I am Rayyan Shaik, a 17 year old Senior at Windermere Preparatory School. Programming is something I&amp;rsquo;m very passionate about, and a skill that I had started learning during my years in middle school. Since then, I have completed AP Computer Science (score of 5 on AP Exam), a cybersecurity summer course at Embry Riddle (Through a National Security Agency scholarship), and I am also currently enrolled in IB Computer Science (Higher Level).</description>
+      <description>I am Rayyan Shaik, a 19 year old Softmore studing Computer Science at the University of Pennsylvania. Progrmaming is something that I’m very passionate about, and a skill that I had began learning since middle school.
+Since then, I have completed AP and IB Computer Science HL (scoring a 5, and 6 respectively), and a variety of computer science courses at UPenn, including Programming Fundamentals and Data Structures &amp;amp; Algorithms.</description>
     </item>
     
     <item>
-      <title>3D Engine</title>
-      <link>https://rayyanshaik.com/timeline/3d-engine/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Twitter Clone</title>
+      <link>https://rayyanshaik.com/timeline/twitter-clone/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
-      <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
-Github Repository The Github repository can be found here</description>
+      <guid>https://rayyanshaik.com/timeline/twitter-clone/</guid>
+      <description>Description This website is a clone / primary functionality-complete version of the popular social media site &amp;ldquo;Twitter&amp;rdquo;. It features secure authentication, a robust and nearly identical UI, and a backend implemented purely through cloud/serverless functions.
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Utilizing Google Cloud Products, and cloud/serverless functions UI practice and frontend-library usage Gain a deeper understanding of React state and query management Twitter-clone README.</description>
+    </item>
+    
+    <item>
+      <title>Admin Dashboard</title>
+      <link>https://rayyanshaik.com/timeline/admin-dashboard/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/admin-dashboard/</guid>
+      <description>Description This website is a single-page showcase of my frontend design skills with only HTML and CSS. There are animations and interactibles, but the dashboard is just a demo and is not utilized further. (This webpage was fully designed and built by me)
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Having a completely responseive UI Practicing simple animations and color schemes admin-dashboard README.</description>
     </item>
     
     <item>
       <title>2048 AI</title>
       <link>https://rayyanshaik.com/timeline/2048ai/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
-      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
-Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
+      <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations. This project in particular uses python, however I created two versions (one in python, one in java) to compare runtime speeds.
+Github Repository The Github repository can be found here</description>
+    </item>
+    
+    <item>
+      <title>3D Engine</title>
+      <link>https://rayyanshaik.com/timeline/3d-engine/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
+      <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
+Github Repository The Github repository can be found here</description>
     </item>
     
     <item>
@@ -55,7 +79,7 @@ The bot utilizes a few APIs and intuitive web scraping to easily find and calcul
       <guid>https://rayyanshaik.com/timeline/carai/</guid>
       <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README.</description>
     </item>
     
     <item>
@@ -84,24 +108,6 @@ Github Repository The Github repository can be found here</description>
       
       <guid>https://rayyanshaik.com/timeline/simple-dungeon/</guid>
       <description>Description A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.</description>
-    </item>
-    
-    <item>
-      <title>Agar.io Clone</title>
-      <link>https://rayyanshaik.com/timeline/agario/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/agario/</guid>
-      <description>Description A complete, scalable clone of the popular web game, agar.io. This project was created purely in python, and utilizes the pygame (GUI) and sockets (web connection) libraries. There are 2 main files used to run code. The first is client.py, which runs the game itself. The second is server.py, which can be run on any network and can open a customizable &amp;ldquo;agar.io&amp;rdquo; server on any port. This game is playable online, and through local networks.</description>
-    </item>
-    
-    <item>
-      <title>Smart Rockets</title>
-      <link>https://rayyanshaik.com/timeline/smart-rockets/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/smart-rockets/</guid>
-      <description>Description This program is a demonstration of a genetic algorithm, with the use of &amp;ldquo;rockets&amp;rdquo; drawn as rectangles. Each &amp;ldquo;rocket&amp;rdquo; has its own dna telling them random directions to accelerate towards. Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle) and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the genetic algorithm, these fitness scores are used to create the next &amp;ldquo;generation&amp;rdquo; of rocket which favors (not absolute) to combine dna of the top performing rockets.</description>
     </item>
     
   </channel>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Rayyan Shaik</title>
+    <link>https://rayyanshaik.com/tags/html/</link>
+    <description>Recent content in Html on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Admin Dashboard</title>
+      <link>https://rayyanshaik.com/timeline/admin-dashboard/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/admin-dashboard/</guid>
+      <description>Description This website is a single-page showcase of my frontend design skills with only HTML and CSS. There are animations and interactibles, but the dashboard is just a demo and is not utilized further. (This webpage was fully designed and built by me)
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Having a completely responseive UI Practicing simple animations and color schemes admin-dashboard README.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@
 <meta name="author" content="Rayyan Shaik">
 <meta name="description" content="Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README." />
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README." />
 <meta name="keywords" content="portfolio programming robotics, Python3, Gui, Featured" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -51,7 +51,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 <meta itemprop="name" content="Self-driving Car AI">
 <meta itemprop="description" content="Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README."><meta itemprop="datePublished" content="2020-10-24T00:00:00+00:00" />
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README."><meta itemprop="datePublished" content="2020-10-24T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-24T00:00:00+00:00" />
 <meta itemprop="wordCount" content="744"><meta itemprop="image" content="https://rayyanshaik.com/"/>
 <meta itemprop="keywords" content="Python3,Gui,Featured," />
@@ -61,19 +61,18 @@ What were my goals with this project?  Implementation and design of neural netwo
 <meta name="twitter:title" content="Self-driving Car AI"/>
 <meta name="twitter:description" content="Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README."/>
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README."/>
 
 
 
     <meta property="og:title" content="Self-driving Car AI" />
 <meta property="og:description" content="Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README." />
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rayyanshaik.com/timeline/carai/" /><meta property="og:image" content="https://rayyanshaik.com/"/><meta property="article:section" content="timeline" />
 <meta property="article:published_time" content="2020-10-24T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-10-24T00:00:00+00:00" />
-
 
 
 
@@ -178,7 +177,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 </figure>
 
 <h4 id="track-builder">Track Builder</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/aicar2.gif"
+<h2 id="hahahugoshortcode13s1hbhb"><figure><img src="../../images/aicar2.gif"
          alt="aicar2.gif" width="500"/>
 </figure>
 </h2>
@@ -204,7 +203,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 </ul>
 </li>
 <li><strong>Car Mechanics</strong>: The car objects each have their own physics mechanics that allow the &ldquo;front wheels&rdquo; to rotate and move similar to a real car. The cars also each have &ldquo;vision lines&rdquo; that protrude from its center. These &ldquo;vision lines&rdquo; interact with the edges of the track and allow the car to know how close it is from the edge of the track.</li>
-<li><strong>Map Builder</strong>: The map builder was tricky to design at first. It allows you to place down points to form 2 separate polygons - one inside of the other. Eventually, the area in between both polygons is used as the track. The map builder also allows the user to place down checkpoints - these are extremely important for the cars' fitness functions. The checkpoints are created by placing a point where the user clicks, and then uses simple form of 2d ray tracing (similar to a car&rsquo;s vision) to determine a line between both polygons.</li>
+<li><strong>Map Builder</strong>: The map builder was tricky to design at first. It allows you to place down points to form 2 separate polygons - one inside of the other. Eventually, the area in between both polygons is used as the track. The map builder also allows the user to place down checkpoints - these are extremely important for the cars&rsquo; fitness functions. The checkpoints are created by placing a point where the user clicks, and then uses simple form of 2d ray tracing (similar to a car&rsquo;s vision) to determine a line between both polygons.</li>
 <li><strong>File Reading/Writer</strong>: In order to save data, such as created maps and high-scoring neural networks, I used the libraries <code>pickle</code> and <code>json</code>. The <code>pickle</code> library is used to save objects; in this project I used this to save the numpy objects of the neural networks. The <code>json</code> libray is used to save dictionaries; in this project I used this to save map (track) states.</li>
 <li>The game itself is not designed to run with a GUI active 100% of the time. I created the game so that it could run independently as its own environment and updates as called. However, by design, it is also easy to implement a GUI with the <code>Game</code> class (as implemented in the <code>Gui</code> class).</li>
 </ul>
@@ -244,7 +243,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 <h4 id="learning-resources">Learning Resources</h4>
 <ul>
 <li>The concept and code for this project was developed 100% by myself.
-These are the links to resources that I used to learn about physics, neural networks and genetic algorithms, 
+These are the links to resources that I used to learn about physics, neural networks and genetic algorithms,
 as well efficiency with the numpy library for creating neural networks</li>
 <li><a href="https://www.youtube.com/watch?v=bGz7mv2vD6g">Coding Challenge #29: Smart Rockets in p5.js</a></li>
 <li><a href="https://www.youtube.com/watch?v=SGxVaptD9Ug&amp;list=LL&amp;index=1&amp;t=746s">Snake AI | Genetic Algorithm | Python</a></li>
@@ -290,6 +289,12 @@ as well efficiency with the numpy library for creating neural networks</li>
     </div>
 
     
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
+        </div>
+
         <div class="pagination__buttons">
           
             <span class="button previous">
@@ -323,7 +328,7 @@ as well efficiency with the numpy library for creating neural networks</li>
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2021</span>
+            <span>&copy; 2023</span>
             
                 <span><a href="https://rayyanshaik.com/">Rayyan Shaik</a></span>
             
@@ -393,7 +398,7 @@ as well efficiency with the numpy library for creating neural networks</li>
 
 
 
-<script type="text/javascript" src="https://rayyanshaik.com/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
+<script type="text/javascript" src="https://rayyanshaik.com/bundle.min.8cc3758efe48ef82e2eb9a5f317b44c0805353a43762207be6fe8ffb05815cce7a19d37f6bf387c378a3bdfc3029981668d645374a33db4ee3480e15a4bfdc7c.js" integrity="sha512-jMN1jv5I74Li65pfMXtEwIBTU6Q3YiB75v6P&#43;wWBXM56GdN/a/OHw3ijvfwwKZgWaNZFN0oz207jSA4VpL/cfA=="></script>
 
 
 

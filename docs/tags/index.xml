@@ -5,30 +5,75 @@
     <link>https://rayyanshaik.com/tags/</link>
     <description>Recent content in Tags on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Featured</title>
       <link>https://rayyanshaik.com/tags/featured/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/featured/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Javascript</title>
+      <link>https://rayyanshaik.com/tags/javascript/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://rayyanshaik.com/tags/react/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://rayyanshaik.com/tags/css/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://rayyanshaik.com/tags/html/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gui</title>
       <link>https://rayyanshaik.com/tags/gui/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/gui/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Java</title>
+      <link>https://rayyanshaik.com/tags/java/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python3</title>
       <link>https://rayyanshaik.com/tags/python3/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/python3/</guid>
       <description></description>
@@ -49,42 +94,6 @@
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/collaboration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://rayyanshaik.com/tags/java/</link>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sockets</title>
-      <link>https://rayyanshaik.com/tags/sockets/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/sockets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robotics</title>
-      <link>https://rayyanshaik.com/tags/robotics/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/robotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Threading</title>
-      <link>https://rayyanshaik.com/tags/threading/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/threading/</guid>
       <description></description>
     </item>
     

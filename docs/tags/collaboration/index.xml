@@ -5,7 +5,7 @@
     <link>https://rayyanshaik.com/tags/collaboration/</link>
     <description>Recent content in Collaboration on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical Expression Evaluator</title>
@@ -24,7 +24,7 @@
       <guid>https://rayyanshaik.com/timeline/agent-maze/</guid>
       <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images     Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
+What were my goals with this project? Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library Project Images Dependencies Pygame Numpy Pickle Agent-Maze-Environment README.md Creating a map Run builder.py When finished, press the &amp;ldquo;enter&amp;rdquo; key to save map to &amp;lsquo;map.</description>
     </item>
     
     <item>

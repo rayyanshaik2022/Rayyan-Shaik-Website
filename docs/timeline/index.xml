@@ -4,14 +4,174 @@
         <link>https://rayyanshaik.com/timeline/</link>
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate>
+        <language>en</language>
+        <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Twitter Clone</title>
+            <link>https://rayyanshaik.com/timeline/twitter-clone/</link>
+            <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/twitter-clone/</guid>
+            <description>Description This website is a clone / primary functionality-complete version of the popular social media site &amp;ldquo;Twitter&amp;rdquo;. It features secure authentication, a robust and nearly identical UI, and a backend implemented purely through cloud/serverless functions.
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Utilizing Google Cloud Products, and cloud/serverless functions UI practice and frontend-library usage Gain a deeper understanding of React state and query management Twitter-clone README.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This website is a clone / primary functionality-complete version of the popular social media site &ldquo;Twitter&rdquo;. It features secure authentication, a robust and nearly identical UI, and a backend implemented purely through cloud/serverless functions.</p>
+<h3 id="live-web-demo">Live Web Demo</h3>
+<p>Click to view the <a href="https://twitter-clone-20n.pages.dev/">live web demo</a></p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/twitter-clone">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Utilizing Google Cloud Products, and cloud/serverless functions</li>
+<li>UI practice and frontend-library usage</li>
+<li>Gain a deeper understanding of React state and query management</li>
+</ul>
+<h3 id="twitter-clone-readmemd">Twitter-clone README.md</h3>
+<p>The README for this project can be viewed on my github.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Admin Dashboard</title>
+            <link>https://rayyanshaik.com/timeline/admin-dashboard/</link>
+            <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/admin-dashboard/</guid>
+            <description>Description This website is a single-page showcase of my frontend design skills with only HTML and CSS. There are animations and interactibles, but the dashboard is just a demo and is not utilized further. (This webpage was fully designed and built by me)
+Live Web Demo Click to view the live web demo
+Github Repository The Github repository can be found here
+What were my goals with this project? Having a completely responseive UI Practicing simple animations and color schemes admin-dashboard README.</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>This website is a single-page showcase of my frontend design skills with only HTML and CSS. There are animations and interactibles, but the dashboard is just a demo and is not utilized further. (This webpage was fully designed and built by me)</p>
+<h3 id="live-web-demo">Live Web Demo</h3>
+<p>Click to view the <a href="https://rayyanshaik2022.github.io/admin-dashboard-odin/">live web demo</a></p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/admin-dashboard-odin">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Having a completely responseive UI</li>
+<li>Practicing simple animations and color schemes</li>
+</ul>
+<h3 id="admin-dashboard-readmemd">admin-dashboard README.md</h3>
+<p>The README for this project can be viewed on my github.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>2048 AI</title>
+            <link>https://rayyanshaik.com/timeline/2048ai/</link>
+            <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
+            <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations. This project in particular uses python, however I created two versions (one in python, one in java) to compare runtime speeds.
+Github Repository The Github repository can be found here</description>
+            <content type="html"><![CDATA[<h3 id="description">Description</h3>
+<p>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations. This project in particular uses python, however I created two versions (one in python, one in java) to compare runtime speeds.</p>
+<h3 id="github-repository">Github Repository</h3>
+<p>The <a href="https://github.com/rayyanshaik2022/2048-Ai">Github repository can be found here</a></p>
+<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
+<ul>
+<li>Implementation of Monte Carlo simulations</li>
+<li>A clean and efficient clone of the game 2048. (Resembles the original as closely as possible)</li>
+<li>Object oriented design</li>
+<li>A PyQT5 gui and packaging as an app to have easily executable code.</li>
+</ul>
+<h3 id="project-images">Project Images</h3>
+<hr>
+<h4 id="application-demonstration">Application Demonstration</h4>
+<figure><img src="../../images/2048-demo1.gif"
+         alt="2048-demo1.gif" width="600"/>
+</figure>
+
+<h4 id="showcase-run-5x-speed">Showcase Run (5x speed)</h4>
+<h2 id="hahahugoshortcode4s1hbhb"><figure><img src="../../images/2048-demo2.gif"
+         alt="2048-demo2.gif" width="600"/>
+</figure>
+</h2>
+<h3 id="2048-ai-readmemd">2048-AI README.md</h3>
+<h4 id="running-the-application-mac-only">Running the Application (Mac only)</h4>
+<ul>
+<li>Within this repository, under <code>\dist</code>, there is a <code>.app</code> file named: <code>2048 AI</code>. On a Mac computer, this file alone can be downloaded and run.</li>
+<li>Runtime Troubleshooting
+<ul>
+<li>Unverfied Developer: Right click application and then select &ldquo;open&rdquo;. This should prompt you with an option to open the application anyways</li>
+<li>Application not opening: During its first 1-2 times running, the application takes around 5-6 seconds to load. It may also require you to &ldquo;open&rdquo; the app a few times on its initial run</li>
+</ul>
+</li>
+</ul>
+<h4 id="executing-the-code">Executing the code</h4>
+<ul>
+<li>Dependencies Required:
+<ul>
+<li>PyQT5</li>
+<li>Pygame 2.1 (or newer)</li>
+<li>numpy</li>
+</ul>
+</li>
+<li>File to run: <code>form.py</code></li>
+</ul>
+<h4 id="what-is-2048-game">What is 2048 Game?</h4>
+<ul>
+<li>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number <code>2048</code>.</li>
+<li>Starts start with values of <code>2</code> or <code>4</code> and can be shifted <code>up</code>, <code>down</code>, <code>left</code>, or <code>right</code>. When two tiles collide, their values are combined into one new tile.</li>
+<li>After every &ldquo;turn&rdquo; or &ldquo;move&rdquo;, a new tile is randomly placed in an empty tile slot.</li>
+</ul>
+<h4 id="project-content">Project Content</h4>
+<ul>
+<li>This project emulates the game of 2048 and applies Monte Carlo Simulations to have an AI, reach the 2048 (and potentially the 4096) tile.</li>
+</ul>
+<h4 id="key-components">Key Components</h4>
+<ul>
+<li>
+<p><strong>2048 Game Logic</strong></p>
+<ul>
+<li>The mechanics of this game primarily consist of &ldquo;spawning&rdquo; tiles in random locations, shifting tiles in a direction depending on input, and merging tiles that collide.</li>
+<li>The shifting/movement code on it&rsquo;s own was not very difficult, but when combined with the fact that tiles could merge mid-shift, was a challange to implement</li>
+</ul>
+</li>
+<li>
+<p><strong>GUI</strong></p>
+<ul>
+<li>This program implements 2 seperate GUI features. A simple GUI run through PyQT5 is initially launched - from this panel, certain run-time variables can be adjusted. The 2048 simulation is run through pygame to draw the game in a neat and colorful manner.</li>
+<li>The PyQT5 gui/panel was created with the applications QT-Creator and Qt-Designer. Using these apps, my design was compiled into the <code>form.ui</code> file, from which <code>form.py</code> was auto-generated. Additional changes have been made to <code>form.py</code> to account for inputs and pygame implementation.</li>
+<li>The file <code>rounded_rect.py</code> allows rounded rectangles to be easily created in pygame (not natively supported). This file was not created by myself.</li>
+</ul>
+</li>
+<li>
+<p><strong>Monte Carlo Logic</strong></p>
+<ul>
+<li>Since tiles can spawn in random locations, I found 2048 to be a difficult problem to tackle with convetional genetic algorithm approaches. The Monte Carlo approach seemed especially desirable at first due to its potential for larges samples and for its &ldquo;consideration&rdquo; of random decisions. This means that it becomes good at accounting for the random tile placement at the end of each move.</li>
+<li>Given the current state of the board/all tiles, an adjustable number of simulations <code>N</code> are run for each possible move - <code>up</code>, <code>down</code>, <code>left</code>, <code>right</code>. So, each move runs <code>N</code> simulations until their simulation reaches an end state. Then, each moves&rsquo; simulation scores are averaged, and the move with the highest score is selected as the next move to play.</li>
+</ul>
+</li>
+</ul>
+<h4 id="fun">Fun</h4>
+<ul>
+<li><strong>Themes</strong>
+<ul>
+<li>To put my own spin on this game, I included an option for custom color combinatinos or &ldquo;themes&rdquo;. Some themes included are: <code>Tokyo Night</code>, <code>Tortoise</code>, and <code>Dracula</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="learning-resources">Learning Resources</h4>
+<ul>
+<li>The concept and code for this project was developed 100% by myself.
+These are the links to resources that I used to learn about the original game and monte carlo simulations</li>
+<li><a href="https://play2048.co/">2048 Game</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo Method Wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=7ESK5SaP-bc">Monte Carlo Simulations - MarbleScience</a></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>3D Engine</title>
             <link>https://rayyanshaik.com/timeline/3d-engine/</link>
-            <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+            <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
             
             <guid>https://rayyanshaik.com/timeline/3d-engine/</guid>
             <description>Description This projects features a 3D Rendering Engine that I have written using Python3 and Pygame (simple 2D graphics drawing library). It allows for the manipulation of points in 3 dimensional space. It was designed with the future use of creating a simple 3D game, and the code is written so that it is easy to utilize and understand from a high level perspective.
@@ -38,7 +198,7 @@ it is easy to utilize and understand from a high level perspective.</p>
 </figure>
 
 <h4 id="rending-3d-object-by-faces-with-light-source">Rending 3d object by faces (with light source)</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/face-render.gif"
+<h2 id="hahahugoshortcode5s1hbhb"><figure><img src="../../images/face-render.gif"
          alt="face-render.gif" width="600"/>
 </figure>
 </h2>
@@ -96,114 +256,6 @@ These are the links to resources that I used to learn about the math behind 3D E
         </item>
         
         <item>
-            <title>2048 AI</title>
-            <link>https://rayyanshaik.com/timeline/2048ai/</link>
-            <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-            
-            <guid>https://rayyanshaik.com/timeline/2048ai/</guid>
-            <description>Description 2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.
-Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation of Monte Carlo simulations A clean and efficient clone of the game 2048.</description>
-            <content type="html"><![CDATA[<h3 id="description">Description</h3>
-<p>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number 2048. This project showcases my python clone of the game itself, and AI that can beat it quite effectively, using Monte Carlo simulations.</p>
-<h3 id="github-repository">Github Repository</h3>
-<p>The <a href="https://github.com/rayyanshaik2022/2048-Ai">Github repository can be found here</a></p>
-<h3 id="what-were-my-goals-with-this-project">What were my goals with this project?</h3>
-<ul>
-<li>Implementation of Monte Carlo simulations</li>
-<li>A clean and efficient clone of the game 2048. (Resembles the original as closely as possible)</li>
-<li>Object oriented design</li>
-<li>A PyQT5 gui and packaging as an app to have easily executable code.</li>
-</ul>
-<h3 id="project-images">Project Images</h3>
-<hr>
-<h4 id="application-demonstration">Application Demonstration</h4>
-<figure><img src="../../images/2048-demo1.gif"
-         alt="2048-demo1.gif" width="600"/>
-</figure>
-
-<h4 id="showcase-run-5x-speed">Showcase Run (5x speed)</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/2048-demo2.gif"
-         alt="2048-demo2.gif" width="600"/>
-</figure>
-</h2>
-<h3 id="2048-ai-readmemd">2048-AI README.md</h3>
-<h4 id="running-the-application-mac-only">Running the Application (Mac only)</h4>
-<ul>
-<li>Within this repository, under <code>\dist</code>, there is a <code>.app</code> file named: <code>2048 AI</code>. On a Mac computer, this file alone can be downloaded and run.</li>
-<li>Runtime Troubleshooting
-<ul>
-<li>Unverfied Developer: Right click application and then select &ldquo;open&rdquo;. This should prompt you with an option to open the application anyways</li>
-<li>Application not opening: During its first 1-2 times running, the application takes around 5-6 seconds to load. It may also require you to &ldquo;open&rdquo; the app a few times on its initial run</li>
-</ul>
-</li>
-</ul>
-<h4 id="executing-the-code">Executing the code</h4>
-<ul>
-<li>Dependencies Required:
-<ul>
-<li>PyQT5</li>
-<li>Pygame 2.1 (or newer)</li>
-<li>numpy</li>
-</ul>
-</li>
-<li>File to run: <code>form.py</code></li>
-</ul>
-<h4 id="what-is-2048-game">What is 2048 Game?</h4>
-<ul>
-<li>2048 is a popular web game, in which the player shifts numbered tiles across a 4x4 grid to create the number <code>2048</code>.</li>
-<li>Starts start with values of <code>2</code> or <code>4</code> and can be shifted <code>up</code>, <code>down</code>, <code>left</code>, or <code>right</code>. When two tiles collide, their values are combined into one new tile.</li>
-<li>After every &ldquo;turn&rdquo; or &ldquo;move&rdquo;, a new tile is randomly placed in an empty tile slot.</li>
-</ul>
-<h4 id="project-content">Project Content</h4>
-<ul>
-<li>This project emulates the game of 2048 and applies Monte Carlo Simulations to have an AI, reach the 2048 (and potentially the 4096) tile.</li>
-</ul>
-<h4 id="key-components">Key Components</h4>
-<ul>
-<li>
-<p><strong>2048 Game Logic</strong></p>
-<ul>
-<li>The mechanics of this game primarily consist of &ldquo;spawning&rdquo; tiles in random locations, shifting tiles in a direction depending on input, and merging tiles that collide.</li>
-<li>The shifting/movement code on it&rsquo;s own was not very difficult, but when combined with the fact that tiles could merge mid-shift, was a challange to implement</li>
-</ul>
-</li>
-<li>
-<p><strong>GUI</strong></p>
-<ul>
-<li>This program implements 2 seperate GUI features. A simple GUI run through PyQT5 is initially launched - from this panel, certain run-time variables can be adjusted. The 2048 simulation is run through pygame to draw the game in a neat and colorful manner.</li>
-<li>The PyQT5 gui/panel was created with the applications QT-Creator and Qt-Designer. Using these apps, my design was compiled into the <code>form.ui</code> file, from which <code>form.py</code> was auto-generated. Additional changes have been made to <code>form.py</code> to account for inputs and pygame implementation.</li>
-<li>The file <code>rounded_rect.py</code> allows rounded rectangles to be easily created in pygame (not natively supported). This file was not created by myself.</li>
-</ul>
-</li>
-<li>
-<p><strong>Monte Carlo Logic</strong></p>
-<ul>
-<li>Since tiles can spawn in random locations, I found 2048 to be a difficult problem to tackle with convetional genetic algorithm approaches. The Monte Carlo approach seemed especially desirable at first due to its potential for larges samples and for its &ldquo;consideration&rdquo; of random decisions. This means that it becomes good at accounting for the random tile placement at the end of each move.</li>
-<li>Given the current state of the board/all tiles, an adjustable number of simulations <code>N</code> are run for each possible move - <code>up</code>, <code>down</code>, <code>left</code>, <code>right</code>. So, each move runs <code>N</code> simulations until their simulation reaches an end state. Then, each moves' simulation scores are averaged, and the move with the highest score is selected as the next move to play.</li>
-</ul>
-</li>
-</ul>
-<h4 id="fun">Fun</h4>
-<ul>
-<li><strong>Themes</strong>
-<ul>
-<li>To put my own spin on this game, I included an option for custom color combinatinos or &ldquo;themes&rdquo;. Some themes included are: <code>Tokyo Night</code>, <code>Tortoise</code>, and <code>Dracula</code>.</li>
-</ul>
-</li>
-</ul>
-<h4 id="learning-resources">Learning Resources</h4>
-<ul>
-<li>The concept and code for this project was developed 100% by myself.
-These are the links to resources that I used to learn about the original game and monte carlo simulations</li>
-<li><a href="https://play2048.co/">2048 Game</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo Method Wikipedia</a></li>
-<li><a href="https://www.youtube.com/watch?v=7ESK5SaP-bc">Monte Carlo Simulations - MarbleScience</a></li>
-</ul>
-]]></content>
-        </item>
-        
-        <item>
             <title>OsuBot</title>
             <link>https://rayyanshaik.com/timeline/osubot/</link>
             <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
@@ -252,15 +304,15 @@ the bot had useful and practical commands. I also had to make sure not to &ldquo
 </li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/osubot1.PNG"
+<h2 id="hahahugoshortcode18s0hbhb"><figure><img src="../../images/osubot1.PNG"
          alt="osubot1.PNG" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/osubot2.PNG"
+<h2 id="hahahugoshortcode18s1hbhb"><figure><img src="../../images/osubot2.PNG"
          alt="osubot2.PNG" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/osubot3.PNG"
+<h2 id="hahahugoshortcode18s2hbhb"><figure><img src="../../images/osubot3.PNG"
          alt="osubot3.PNG" width="350"/>
 </figure>
 </h2>
@@ -286,7 +338,7 @@ the bot had useful and practical commands. I also had to make sure not to &ldquo
             <guid>https://rayyanshaik.com/timeline/carai/</guid>
             <description>Description This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents)  Project Images  Training process  Track Builder   Dependencies   Pygame Numpy Shapely  Car-Racing-NN README.</description>
+What were my goals with this project? Implementation and design of neural networks Imeplementation and design of a genetic algorithm Object oriented design Track builder script (to create custom-tailored tracks for the car agents) Project Images Training process Track Builder Dependencies Pygame Numpy Shapely Car-Racing-NN README.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>This project is a simple racing game that implements a neural network to have agents automatically race around the track. This project itself is split up into 3 parts: the map builder, gui/game, and deep neural network.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -306,7 +358,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 </figure>
 
 <h4 id="track-builder">Track Builder</h4>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/aicar2.gif"
+<h2 id="hahahugoshortcode13s1hbhb"><figure><img src="../../images/aicar2.gif"
          alt="aicar2.gif" width="500"/>
 </figure>
 </h2>
@@ -332,7 +384,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 </ul>
 </li>
 <li><strong>Car Mechanics</strong>: The car objects each have their own physics mechanics that allow the &ldquo;front wheels&rdquo; to rotate and move similar to a real car. The cars also each have &ldquo;vision lines&rdquo; that protrude from its center. These &ldquo;vision lines&rdquo; interact with the edges of the track and allow the car to know how close it is from the edge of the track.</li>
-<li><strong>Map Builder</strong>: The map builder was tricky to design at first. It allows you to place down points to form 2 separate polygons - one inside of the other. Eventually, the area in between both polygons is used as the track. The map builder also allows the user to place down checkpoints - these are extremely important for the cars' fitness functions. The checkpoints are created by placing a point where the user clicks, and then uses simple form of 2d ray tracing (similar to a car&rsquo;s vision) to determine a line between both polygons.</li>
+<li><strong>Map Builder</strong>: The map builder was tricky to design at first. It allows you to place down points to form 2 separate polygons - one inside of the other. Eventually, the area in between both polygons is used as the track. The map builder also allows the user to place down checkpoints - these are extremely important for the cars&rsquo; fitness functions. The checkpoints are created by placing a point where the user clicks, and then uses simple form of 2d ray tracing (similar to a car&rsquo;s vision) to determine a line between both polygons.</li>
 <li><strong>File Reading/Writer</strong>: In order to save data, such as created maps and high-scoring neural networks, I used the libraries <code>pickle</code> and <code>json</code>. The <code>pickle</code> library is used to save objects; in this project I used this to save the numpy objects of the neural networks. The <code>json</code> libray is used to save dictionaries; in this project I used this to save map (track) states.</li>
 <li>The game itself is not designed to run with a GUI active 100% of the time. I created the game so that it could run independently as its own environment and updates as called. However, by design, it is also easy to implement a GUI with the <code>Game</code> class (as implemented in the <code>Gui</code> class).</li>
 </ul>
@@ -372,7 +424,7 @@ What were my goals with this project?  Implementation and design of neural netwo
 <h4 id="learning-resources">Learning Resources</h4>
 <ul>
 <li>The concept and code for this project was developed 100% by myself.
-These are the links to resources that I used to learn about physics, neural networks and genetic algorithms, 
+These are the links to resources that I used to learn about physics, neural networks and genetic algorithms,
 as well efficiency with the numpy library for creating neural networks</li>
 <li><a href="https://www.youtube.com/watch?v=bGz7mv2vD6g">Coding Challenge #29: Smart Rockets in p5.js</a></li>
 <li><a href="https://www.youtube.com/watch?v=SGxVaptD9Ug&amp;list=LL&amp;index=1&amp;t=746s">Snake AI | Genetic Algorithm | Python</a></li>
@@ -403,67 +455,67 @@ as well efficiency with the numpy library for creating neural networks</li>
 <li>Accounts for a wide variety of statements.  Allows for negative numbers, PEMDAS, and is precise.</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/calculator1.jpg"
+<h2 id="hahahugoshortcode12s0hbhb"><figure><img src="../../images/calculator1.jpg"
          alt="calculator1.jpg" width="600"/>
 </figure>
 </h2>
 <h3 id="driver-code">Driver code</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
-System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Output: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">());</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>e <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">+</span>input<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;)&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Output: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">());</span></span></span></code></pre></div>
 <h3 id="testing-outputs">Testing outputs</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
-    <span style="color:#f92672">(-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">))</span>
-<span style="color:#f92672">---------------------</span>
-Evaluating: <span style="color:#f92672">((-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">)))</span> <span style="color:#f92672">&gt;&gt;&gt;</span>
-<span style="color:#f92672">---------------------</span>
-Output: <span style="color:#f92672">-</span>5<span style="color:#f92672">.</span><span style="color:#a6e22e">444444444444445</span>
-Calculation <span style="color:#a6e22e">time</span> <span style="color:#f92672">(</span>ms<span style="color:#f92672">):</span> 2
-Would you like to exit<span style="color:#f92672">?</span> <span style="color:#f92672">(</span>y<span style="color:#f92672">/</span>n<span style="color:#f92672">)</span> <span style="color:#f92672">:</span>
-    yes</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Your <span style="color:#a6e22e">expression</span> <span style="color:#f92672">(+</span> <span style="color:#f92672">-</span> <span style="color:#f92672">/</span> <span style="color:#f92672">*</span> <span style="color:#f92672">^</span> <span style="color:#f92672">!):</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">(-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">---------------------</span>
+</span></span><span style="display:flex;"><span>Evaluating: <span style="color:#f92672">((-</span>2<span style="color:#f92672">)((((</span>2<span style="color:#f92672">+</span>2<span style="color:#f92672">)*</span>3<span style="color:#f92672">/</span>9<span style="color:#f92672">-</span>4<span style="color:#f92672">)*</span>3<span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">^</span>3<span style="color:#f92672">)/</span>9 <span style="color:#f92672">+</span> <span style="color:#f92672">(-</span>10 <span style="color:#f92672">-</span> <span style="color:#f92672">(-</span>3<span style="color:#f92672">)))</span> <span style="color:#f92672">&gt;&gt;&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">---------------------</span>
+</span></span><span style="display:flex;"><span>Output: <span style="color:#f92672">-</span>5<span style="color:#f92672">.</span><span style="color:#a6e22e">444444444444445</span>
+</span></span><span style="display:flex;"><span>Calculation <span style="color:#a6e22e">time</span> <span style="color:#f92672">(</span>ms<span style="color:#f92672">):</span> 2
+</span></span><span style="display:flex;"><span>Would you like to exit<span style="color:#f92672">?</span> <span style="color:#f92672">(</span>y<span style="color:#f92672">/</span>n<span style="color:#f92672">)</span> <span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    yes</span></span></code></pre></div>
 <h3 id="recursive-solve-code">Recursive solve() code</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">contains</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
-            <span style="color:#75715e">/* This &#39;portion&#39; of the method, recursively breaks down parenthetical statements
-</span><span style="color:#75715e">            into simple expressions. It then takes the outputs of all the
-</span><span style="color:#75715e">            parenthetical statements and calculates the rest of the expression using
-</span><span style="color:#75715e">            simpleSolve() */</span>
-            
-            <span style="color:#66d9ef">int</span> parenthesisCount <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-            <span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> charEquation <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">();</span>
-            String finalEquation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
-            <span style="color:#66d9ef">int</span> index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
-            <span style="color:#66d9ef">int</span> index2 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
-
-            <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> charEquation<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;(&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>index1 <span style="color:#f92672">==</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                        index1 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
-                    <span style="color:#f92672">}</span>
-                    parenthesisCount <span style="color:#f92672">++;</span>
-                <span style="color:#f92672">}</span>
-                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;)&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                    parenthesisCount <span style="color:#f92672">--;</span>
-                    <span style="color:#75715e">/* When the parenthesis count is at 0 on a closed parenthesis
-</span><span style="color:#75715e">                    that means that a parenthetical expression has ended. This is to
-</span><span style="color:#75715e">                    be parsed, and solved in a new Equation object */</span>
-                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                        index2 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>  
-                        <span style="color:#75715e">// Recursive statement
-</span><span style="color:#75715e"></span>                        finalEquation <span style="color:#f92672">+=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>index1<span style="color:#f92672">,</span> index2<span style="color:#f92672">+</span>1<span style="color:#f92672">),</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printOperations</span><span style="color:#f92672">).</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">();</span>  
-                        index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
-                    <span style="color:#f92672">}</span>
-                <span style="color:#f92672">}</span>
-                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                    finalEquation <span style="color:#f92672">+=</span> charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">];</span>
-                <span style="color:#f92672">}</span>
-            <span style="color:#f92672">}</span>
-            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span>finalEquation<span style="color:#f92672">);</span>
-        <span style="color:#f92672">}</span>
-        <span style="color:#75715e">// If there are no parentheses, &#34;order&#34; does not matter
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">);</span>
-        <span style="color:#f92672">}</span>
-    <span style="color:#f92672">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">solve</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">contains</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;(&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">/* This &#39;portion&#39; of the method, recursively breaks down parenthetical statements
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">            into simple expressions. It then takes the outputs of all the
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">            parenthetical statements and calculates the rest of the expression using
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">            simpleSolve() */</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> parenthesisCount <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> charEquation <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>            String finalEquation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> index2 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span>0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> charEquation<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;(&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>index1 <span style="color:#f92672">==</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                        index1 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                    parenthesisCount <span style="color:#f92672">++;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;)&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                    parenthesisCount <span style="color:#f92672">--;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* When the parenthesis count is at 0 on a closed parenthesis
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">                    that means that a parenthetical expression has ended. This is to
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">                    be parsed, and solved in a new Equation object */</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                        index2 <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>  
+</span></span><span style="display:flex;"><span>                        <span style="color:#75715e">// Recursive statement
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                        finalEquation <span style="color:#f92672">+=</span> <span style="color:#66d9ef">new</span> Equation<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>index1<span style="color:#f92672">,</span> index2<span style="color:#f92672">+</span>1<span style="color:#f92672">),</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printOperations</span><span style="color:#f92672">).</span><span style="color:#a6e22e">solve</span><span style="color:#f92672">();</span>  
+</span></span><span style="display:flex;"><span>                        index1 <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>parenthesisCount <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                    finalEquation <span style="color:#f92672">+=</span> charEquation<span style="color:#f92672">[</span>i<span style="color:#f92672">];</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span>finalEquation<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// If there are no parentheses, &#34;order&#34; does not matter
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> simpleSolve<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equation</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span></span></span></code></pre></div>
 ]]></content>
         </item>
         
@@ -487,15 +539,15 @@ Github Repository The Github repository can be found here</description>
 <li>Multi-user interactions and long-term data storage regarding many users</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/velobot1.png"
+<h2 id="hahahugoshortcode27s0hbhb"><figure><img src="../../images/velobot1.png"
          alt="velobot1.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/velobot2.png"
+<h2 id="hahahugoshortcode27s1hbhb"><figure><img src="../../images/velobot2.png"
          alt="velobot2.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/velobot3.png"
+<h2 id="hahahugoshortcode27s2hbhb"><figure><img src="../../images/velobot3.png"
          alt="velobot3.png" width="350"/>
 </figure>
 </h2>
@@ -538,15 +590,15 @@ to run the code for any discord bot/application.</li>
 this was solved through a custom push/pull method</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/simple-dungeon1.gif"
+<h2 id="hahahugoshortcode22s0hbhb"><figure><img src="../../images/simple-dungeon1.gif"
          alt="simple-dungeon1.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/simple-dungeon2.gif"
+<h2 id="hahahugoshortcode22s1hbhb"><figure><img src="../../images/simple-dungeon2.gif"
          alt="simple-dungeon2.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s2-hbhb"><figure><img src="../../images/simple-dungeon3.png"
+<h2 id="hahahugoshortcode22s2hbhb"><figure><img src="../../images/simple-dungeon3.png"
          alt="simple-dungeon3.png" width="600"/>
 </figure>
 </h2>
@@ -577,11 +629,11 @@ this was solved through a custom push/pull method</li>
 <li>Experiment with methods of storing and transfering data</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/agario1.gif"
+<h2 id="hahahugoshortcode7s0hbhb"><figure><img src="../../images/agario1.gif"
          alt="agario1.gif" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/agario2.png"
+<h2 id="hahahugoshortcode7s1hbhb"><figure><img src="../../images/agario2.png"
          alt="agario2.png" width="500"/>
 </figure>
 </h2>
@@ -608,7 +660,7 @@ Click on the play button to join the server.</li>
             <guid>https://rayyanshaik.com/timeline/smart-rockets/</guid>
             <description>Description This program is a demonstration of a genetic algorithm, with the use of &amp;ldquo;rockets&amp;rdquo; drawn as rectangles. Each &amp;ldquo;rocket&amp;rdquo; has its own dna telling them random directions to accelerate towards. Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle) and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the genetic algorithm, these fitness scores are used to create the next &amp;ldquo;generation&amp;rdquo; of rocket which favors (not absolute) to combine dna of the top performing rockets.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
-<p>This program is a demonstration of a genetic algorithm, with the use of &ldquo;rockets&rdquo; drawn 
+<p>This program is a demonstration of a genetic algorithm, with the use of &ldquo;rockets&rdquo; drawn
 as rectangles. Each &ldquo;rocket&rdquo; has its own dna telling them random directions to accelerate towards.
 Rockets effectively gain a higher (better) fitness the closer they are to the goal (green circle)
 and lose fitness (worse) if they try and go out of bounds or hit a boundary. In the scope of the
@@ -616,8 +668,8 @@ genetic algorithm, these fitness scores are used to create the next &ldquo;gener
 favors (not absolute) to combine dna of the top performing rockets. This, in turn, simulates evolution,
 with each proceding generation utilizing the top performing &ldquo;genes&rdquo; of their predecessors.</p>
 <p>This particular genetic algorithm also includes &ldquo;Elitism&rdquo;. The highest performing rocket from each generation
-is also chosen to be a part of the next generation (represented by the light blue rocket). 
-This ensures, that there is a &ldquo;check point&rdquo; of sorts - preventing complete deviation from 
+is also chosen to be a part of the next generation (represented by the light blue rocket).
+This ensures, that there is a &ldquo;check point&rdquo; of sorts - preventing complete deviation from
 the goal as a result of mutation and poor performing crossovers.</p>
 <h3 id="github-repository">Github Repository</h3>
 <p>The <a href="https://github.com/rayyanshaik2022/Smart-Rockets">Github repository can be found here</a></p>
@@ -627,7 +679,7 @@ the goal as a result of mutation and poor performing crossovers.</p>
 <li>Efficient manipulation of a large quantity of objects</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/smart-rockets1.gif"
+<h2 id="hahahugoshortcode23s0hbhb"><figure><img src="../../images/smart-rockets1.gif"
          alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
@@ -639,7 +691,7 @@ the goal as a result of mutation and poor performing crossovers.</p>
 <p>This is a project designed and inspired from this youtube video:
 <a href="https://www.youtube.com/watch?v=bGz7mv2vD6g">https://www.youtube.com/watch?v=bGz7mv2vD6g</a> by &ldquo;The Coding Train&rdquo;</p>
 <p>While it does follow the original structure of the video, my version of the project
-offers a translation (from javascript to python), demonstration and understanding of 
+offers a translation (from javascript to python), demonstration and understanding of
 geometry (lack of built in drawing/rotation functions), knowledge of OOP programming,
 as well as an understanding and implementation of a genetic algorithm.</p>
 ]]></content>
@@ -653,7 +705,7 @@ as well as an understanding and implementation of a genetic algorithm.</p>
             <guid>https://rayyanshaik.com/timeline/agent-maze/</guid>
             <description>Description A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for pathfinding &amp;ldquo;agent&amp;rdquo; algorithms.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library  Project Images     Dependencies  Pygame Numpy Pickle  Agent-Maze-Environment README.</description>
+What were my goals with this project? Practice advanced manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Object-Oriented approach Object reading and writing with pickle library Project Images Dependencies Pygame Numpy Pickle Agent-Maze-Environment README.md Creating a map Run builder.py When finished, press the &amp;ldquo;enter&amp;rdquo; key to save map to &amp;lsquo;map.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A project developed by WPS Lakerbotics Programming Team, designed as a testing environment for
 pathfinding &ldquo;agent&rdquo; algorithms.</p>
@@ -668,11 +720,11 @@ pathfinding &ldquo;agent&rdquo; algorithms.</p>
 <li>Object reading and writing with pickle library</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/agent-maze1.gif"
+<h2 id="hahahugoshortcode8s0hbhb"><figure><img src="../../images/agent-maze1.gif"
          alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/agent-maze2.png"
+<h2 id="hahahugoshortcode8s1hbhb"><figure><img src="../../images/agent-maze2.png"
          alt="agent-maze2.png" width="500"/>
 </figure>
 </h2>
@@ -715,11 +767,11 @@ Due to the nature of the calculations, the program is relatively slow (requires 
 <li>Work and implement algorithms and equations such as perlin noise and poisson disc sampling.</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/perlinmap2.png"
+<h2 id="hahahugoshortcode19s0hbhb"><figure><img src="../../images/perlinmap2.png"
          alt="perlinmap2.png" width="500"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode-s1-hbhb"><figure><img src="../../images/perlinmap3.png"
+<h2 id="hahahugoshortcode19s1hbhb"><figure><img src="../../images/perlinmap3.png"
          alt="perlinmap3.png" width="500"/>
 </figure>
 </h2>
@@ -756,7 +808,7 @@ Due to the nature of the calculations, the program is relatively slow (requires 
 <li>Visually pleasing and easy to understand</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/boids1.gif"
+<h2 id="hahahugoshortcode11s0hbhb"><figure><img src="../../images/boids1.gif"
          alt="boids1.gif" width="600"/>
 </figure>
 </h2>
@@ -803,7 +855,7 @@ The <a href="https://github.com/lakerbotics">Lakerbotics-1649 Github can be foun
             <guid>https://rayyanshaik.com/timeline/sorting-visualizer/</guid>
             <description>Description A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach  Project Images   Dependencies  Pygame  </description>
+What were my goals with this project? Custom buttons Practice writing sorting algorithms Minimalist and attractive graphics Object-Oriented approach Project Images Dependencies Pygame </description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A project that serves as a visual representation for bubble sort, insertion sort, selection sort, and quick sort.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -816,7 +868,7 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
 <li>Object-Oriented approach</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/sortingvisualizer1.gif"
+<h2 id="hahahugoshortcode25s0hbhb"><figure><img src="../../images/sortingvisualizer1.gif"
          alt="sortingvisualizer1.gif" width="500"/>
 </figure>
 </h2>
@@ -835,7 +887,7 @@ What were my goals with this project?  Custom buttons Practice writing sorting a
             <guid>https://rayyanshaik.com/timeline/autoclickr/</guid>
             <description>Description A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment builder.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Create a fast and reliable auto clicker Have the script be easy to use and interact with Make the driver code relatively simple for easy changes  Driver code from autoclickr import Autoclickr mult = int(input(&amp;#34;Scale value (threads to be opened): &amp;#34;)) clicker = Autoclickr(True, 0, &amp;#39;left&amp;#39;, &amp;#39;right&amp;#39;,scaled=mult, clickType=0) clicker.</description>
+What were my goals with this project? Create a fast and reliable auto clicker Have the script be easy to use and interact with Make the driver code relatively simple for easy changes Driver code from autoclickr import Autoclickr mult = int(input(&amp;#34;Scale value (threads to be opened): &amp;#34;)) clicker = Autoclickr(True, 0, &amp;#39;left&amp;#39;, &amp;#39;right&amp;#39;,scaled=mult, clickType=0) clicker.</description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A complete GUI environment designed to test grid/maze solving algorithms. Complete with a GUI environment
 builder.</p>
@@ -848,15 +900,15 @@ builder.</p>
 <li>Make the driver code relatively simple for easy changes</li>
 </ul>
 <h3 id="driver-code">Driver code</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> autoclickr <span style="color:#f92672">import</span> Autoclickr
-
-mult <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Scale value (threads to be opened): &#34;</span>))
-
-clicker <span style="color:#f92672">=</span> Autoclickr(<span style="color:#66d9ef">True</span>, <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;left&#39;</span>, <span style="color:#e6db74">&#39;right&#39;</span>,scaled<span style="color:#f92672">=</span>mult, clickType<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
-clicker<span style="color:#f92672">.</span>run()</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> autoclickr <span style="color:#f92672">import</span> Autoclickr
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mult <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;Scale value (threads to be opened): &#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>clicker <span style="color:#f92672">=</span> Autoclickr(<span style="color:#66d9ef">True</span>, <span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;left&#39;</span>, <span style="color:#e6db74">&#39;right&#39;</span>,scaled<span style="color:#f92672">=</span>mult, clickType<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>clicker<span style="color:#f92672">.</span>run()</span></span></code></pre></div>
 <h3 id="autoclickr-readmetxt">Autoclickr readme.txt</h3>
 <h2 id="parameters">PARAMETERS</h2>
-<p>(True, 0, &lsquo;left&rsquo;, &lsquo;right&rsquo;, 0, 1)</p>
+<p>(True, 0, &rsquo;left&rsquo;, &lsquo;right&rsquo;, 0, 1)</p>
 <p>1 - The first parameter indicates whether the clicker is enabled or disabled. It must be defined as enabled (True) to work.<br>
 2 - The second parameter is a time delay (in seconds), between clicks. If this is set to 0, there will be no delay. (Max cps of 10)<br>
 3 - The third parameter takes a key which will be used to enable the clicker (All keys usable in the &lsquo;keyboard&rsquo; library will work)<br>
@@ -874,7 +926,7 @@ clicker<span style="color:#f92672">.</span>run()</code></pre></div>
             <guid>https://rayyanshaik.com/timeline/snake-environment/</guid>
             <description>Description A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &amp;ldquo;play&amp;rdquo; the game. The bar on the right side of the application provides useful development information.
 Github Repository The Github repository can be found here
-What were my goals with this project?  Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code  Project Images   Dependencies  Pygame  </description>
+What were my goals with this project? Practice manipulation of 2d arrays Practice GUI efficiency Minimalist and attractive graphics Future integration with agent code Project Images Dependencies Pygame </description>
             <content type="html"><![CDATA[<h3 id="description">Description</h3>
 <p>A full gui of the classic snake game. This specific version was created for easy implementation of agents/algoriths and ai to &ldquo;play&rdquo; the game. The bar on the right side of the application provides useful development information.</p>
 <h3 id="github-repository">Github Repository</h3>
@@ -887,7 +939,7 @@ What were my goals with this project?  Practice manipulation of 2d arrays Practi
 <li>Future integration with agent code</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/snake-environment1.gif"
+<h2 id="hahahugoshortcode24s0hbhb"><figure><img src="../../images/snake-environment1.gif"
          alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
@@ -919,7 +971,7 @@ Where the total cost of &ldquo;moving&rdquo; is the sum of the cost of the path 
 <li>Implentation of nodes, and stepping through nodes (effectively complex linked lists)</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode-s0-hbhb"><figure><img src="../../images/astar1.gif"
+<h2 id="hahahugoshortcode9s0hbhb"><figure><img src="../../images/astar1.gif"
          alt="/images/astar1.gif" width="500"/>
 </figure>
 </h2>

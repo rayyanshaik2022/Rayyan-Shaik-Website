@@ -1,7 +1,7 @@
 ---
 title: "3D Engine"
 eventname: "A full 3D Rendering Engine written from scratch"
-date: 2021-07-30
+date: 2022-07-30
 publishDate: 2021-07-30
 author: "Rayyan Shaik"
 draft: false
