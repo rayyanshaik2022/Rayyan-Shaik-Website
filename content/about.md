@@ -9,11 +9,11 @@ weight: 2
 
 ----
 
-I am Rayyan Shaik, a 19 year old Softmore studing Computer Science at the University of Pennsylvania. Progrmaming is something that I’m very passionate about, and a skill that I had began learning since middle school.
+I am Rayyan Shaik, a 19 year old sophomore studing Computer Science at the University of Pennsylvania. Programming is something that I’m very passionate about, and a skill that I had began learning since middle school.
 
 Since then, I have completed AP and IB Computer Science HL (scoring a 5, and 6 respectively), and a variety of computer science courses at UPenn, including Programming Fundamentals and Data Structures & Algorithms.
 
-I have been learning how to program in Python3 since 2017, and began learning Java & Javascript in 2018. On this website portfolio, you can find "posts" regarding my complete programming projects.
+I have been learning how to program in Python3 since 2017, and began learning Java & Javascript in 2018. On this website portfolio, you can find “posts” regarding my complete programming projects.
 
 This hyper-link can be used to view my **[Github Repositories](https://github.com/rayyanshaik2022?tab=repositories)**
 
