@@ -6,15 +6,41 @@
     <description>Recent content on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://rayyanshaik.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/about/</guid>
-      <description>I am Rayyan Shaik, a 19 year old sophomore studing Computer Science at the University of Pennsylvania. Programming is something that I’m very passionate about, and a skill that I had began learning since middle school.
-Since then, I have completed AP and IB Computer Science HL (scoring a 5, and 6 respectively), and a variety of computer science courses at UPenn, including Programming Fundamentals and Data Structures &amp;amp; Algorithms.</description>
+      <description>I am Rayyan Shaik, a rising junior studing Computer Science at the University of Pennsylvania. Programming is something that I’m very passionate about, and a skill that I had began learning since middle school.
+During my time at UPenn I&amp;rsquo;ve completed a variety of foundational computer science courses including Data Structures &amp;amp; Algorithms, Computer Systems, and Software Design.
+Additionally, I&amp;rsquo;ve begun to branch out into specialized topics from Applied Machine Learning to Cloud Computing &amp;amp; Scalability.</description>
+    </item>
+    
+    <item>
+      <title>ProfitPeak</title>
+      <link>https://rayyanshaik.com/timeline/profitpeak/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/profitpeak/</guid>
+      <description>A chrome extension that allows users to view their &amp;ldquo;Profit and Loss&amp;rdquo; of crypto swaps and track wallet gains.
+I developed the full frontend, storage solutions, and integrating custom API wrappers.
+This extension was created by Marc Vaz, Ahmed Abidallah, Chelsea Pan, and Rayyan Shaik.
+Github Repository The Github repository can be found here
+Project Demo Gif Features Read more about the features of this product at our landing page</description>
+    </item>
+    
+    <item>
+      <title>Predicting the degree of virality of trending pop songs</title>
+      <link>https://rayyanshaik.com/timeline/predicting-virality/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/predicting-virality/</guid>
+      <description>A research and exploration capstone project for CIS 5190 - Applied Machine Learning by Rayyan Shaik, Esther Armao, Helen Nguyen
+This project aims predict the virality of a given pop song given only its lyrics.
+We split this project into 2 main contributions, which are outlined below:
+Contribution 1: Dataset of Pop Songs, Lyrics, Streaming Data All data (selection of pop songs, their respective lyrics and historical streaming data) was webscraped using python A link to the dataset generation repository can be found here: Music-Project-Scraper</description>
     </item>
     
     <item>
@@ -89,25 +115,6 @@ What were my goals with this project? Implementation and design of neural networ
       
       <guid>https://rayyanshaik.com/timeline/calculator/</guid>
       <description>Description This repository features 2 programs that can solve mathematical expressions. Both projects were planned and thought out before writing, and my partner, Andrew Diab, and I each wrote one implementation. The first one, under the subdirectory /Dijkstra was completed by Andrew Diab - this implements the Shunting-Yard Algorithm by Edsger Dijkstra, and the simpleSolve() method created by myself. I created the second implementation found under the subdirectory Recursive. This program contains a class which can solve unordered mathematical expressions folling PEMDAS (no brackets or parentheses) under the method simpleSolve().</description>
-    </item>
-    
-    <item>
-      <title>Velociraptor Bot</title>
-      <link>https://rayyanshaik.com/timeline/velociraptorbot/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/velociraptorbot/</guid>
-      <description>Description A multi-purpose discord bot to be used on a private server with my friends. This bot provides basic security for our server with an easily customizable verification system. Important e-learnig and virtual learning commands that can reply with my school&amp;rsquo;s schedule and per class zoom links. The bot can also join voice channels and play different sound effects stored as .mp3 files.
-Github Repository The Github repository can be found here</description>
-    </item>
-    
-    <item>
-      <title>Simple Dungeon Game</title>
-      <link>https://rayyanshaik.com/timeline/simple-dungeon/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/simple-dungeon/</guid>
-      <description>Description A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.</description>
     </item>
     
   </channel>

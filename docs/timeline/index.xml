@@ -5,8 +5,97 @@
         <description>Recent content in Timelines on Rayyan Shaik</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://rayyanshaik.com/timeline/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>ProfitPeak</title>
+            <link>https://rayyanshaik.com/timeline/profitpeak/</link>
+            <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/profitpeak/</guid>
+            <description>A chrome extension that allows users to view their &amp;ldquo;Profit and Loss&amp;rdquo; of crypto swaps and track wallet gains.
+I developed the full frontend, storage solutions, and integrating custom API wrappers.
+This extension was created by Marc Vaz, Ahmed Abidallah, Chelsea Pan, and Rayyan Shaik.
+Github Repository The Github repository can be found here
+Project Demo Gif Features Read more about the features of this product at our landing page</description>
+            <content type="html"><![CDATA[<p>A chrome extension that allows users to view their &ldquo;Profit and Loss&rdquo; of crypto swaps and track wallet gains.</p>
+<p>I developed the full <code>frontend</code>, <code>storage solutions</code>, and <code>integrating custom API wrappers</code>.</p>
+<p>This extension was created by Marc Vaz, Ahmed Abidallah, Chelsea Pan, and Rayyan Shaik.</p>
+<h2 id="github-repository">Github Repository</h2>
+<p>The <a href="https://github.com/aabdel0181/profitpeak">Github repository can be found here</a></p>
+<h2 id="project-demo-gif">Project Demo Gif</h2>
+<figure><img src="../../images/profitpeak_demo.gif"
+         alt="profitpeak_demo.gif" width="600"/>
+</figure>
+
+<h2 id="features">Features</h2>
+<p>Read more about the features of this product at our <a href="https://marcvaz1.github.io/profitPeakLandingPage/">landing page</a></p>
+<h3 id="trade-analytics">Trade Analytics</h3>
+<p>Users input their wallet address and link it with the Etherscan API, allowing access to a comprehensive record of past transactions associated with the provided wallet address.</p>
+<h3 id="token-price-history">Token Price History</h3>
+<p>Utilizing localStorage capabilities, the extension records and maintains a comprehensive repository of historical token prices to ensure users have access to accurate pricing data.</p>
+<h3 id="graphical-data">Graphical Data</h3>
+<p>Visually represents trade performance through dynamic and interactive graphs, providing a clear and intuitive visualization of profit and loss (PnL) trends.</p>
+<hr>
+<p>This was group effort created as a capstone project for <code>CIS 3500 - Software Design, Software Engineering</code> at UPenn</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Predicting the degree of virality of trending pop songs</title>
+            <link>https://rayyanshaik.com/timeline/predicting-virality/</link>
+            <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+            
+            <guid>https://rayyanshaik.com/timeline/predicting-virality/</guid>
+            <description>A research and exploration capstone project for CIS 5190 - Applied Machine Learning by Rayyan Shaik, Esther Armao, Helen Nguyen
+This project aims predict the virality of a given pop song given only its lyrics.
+We split this project into 2 main contributions, which are outlined below:
+Contribution 1: Dataset of Pop Songs, Lyrics, Streaming Data All data (selection of pop songs, their respective lyrics and historical streaming data) was webscraped using python A link to the dataset generation repository can be found here: Music-Project-Scraper</description>
+            <content type="html"><![CDATA[<p>A research and exploration capstone project for <code>CIS 5190 - Applied Machine Learning</code> by Rayyan Shaik, Esther Armao, Helen Nguyen</p>
+<p>This project aims predict the virality of a given pop song given only its lyrics.</p>
+<p>We split this project into 2 main contributions, which are outlined below:</p>
+<h2 id="contribution-1-dataset-of-pop-songs-lyrics-streaming-data">Contribution 1: Dataset of Pop Songs, Lyrics, Streaming Data</h2>
+<p>All data (selection of pop songs, their respective lyrics and historical streaming data) was webscraped using python
+A link to the dataset generation repository can be found here: <a href="https://github.com/rayyanshaik2022/Music-Project-Data">Music-Project-Scraper</a></p>
+<ol>
+<li>Step 1: Scraping a list of pops songs (names &amp; artists) by year</li>
+</ol>
+<ul>
+<li>Done by scraping Apple Music</li>
+</ul>
+<ol start="2">
+<li>Step 2: Scraping lyrics and lyrics meta-data per song</li>
+</ol>
+<ul>
+<li>Done by scraping Genius and using Genius&rsquo; API</li>
+</ul>
+<ol start="3">
+<li>Step 3: Weekly streaming data (global &amp; US) per song</li>
+</ol>
+<ul>
+<li>Done by scraping kworb.net for spotify streaming data on each of the songs from step 1</li>
+</ul>
+<p>Further feature extraction was done across all of the song lyrics</p>
+<ul>
+<li><code>Sentiment Analysis</code> using NLTK’s VADER Sentiment Analyzer</li>
+<li><code>Bag of Words</code> using CountVectorizer from scikit-learn</li>
+</ul>
+<h2 id="contribution-2-model-to-evaluate-an-input-songs-virality">Contribution 2: Model to evaluate an input song’s “virality”</h2>
+<h3 id="model-results">Model Results</h3>
+<ul>
+<li><strong>Accuracy</strong>: ~70%</li>
+<li><strong>F1 Scores</strong>: 48%, 77%, 0% for classes 0, 1 and 2 respectively</li>
+</ul>
+<h3 id="our-neural-network-architecture">Our Neural Network Architecture</h3>
+<figure><img src="../../images/nn-architecture.png"
+         alt="nn-architecture.png" width="600"/>
+</figure>
+
+<hr>
+<p>This was group effort created as a capstone project for <code>CIS 5190 - Applied Machine Learning</code> at UPenn</p>
+]]></content>
+        </item>
         
         <item>
             <title>Twitter Clone</title>
@@ -539,15 +628,15 @@ Github Repository The Github repository can be found here</description>
 <li>Multi-user interactions and long-term data storage regarding many users</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode27s0hbhb"><figure><img src="../../images/velobot1.png"
+<h2 id="hahahugoshortcode29s0hbhb"><figure><img src="../../images/velobot1.png"
          alt="velobot1.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode27s1hbhb"><figure><img src="../../images/velobot2.png"
+<h2 id="hahahugoshortcode29s1hbhb"><figure><img src="../../images/velobot2.png"
          alt="velobot2.png" width="350"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode27s2hbhb"><figure><img src="../../images/velobot3.png"
+<h2 id="hahahugoshortcode29s2hbhb"><figure><img src="../../images/velobot3.png"
          alt="velobot3.png" width="350"/>
 </figure>
 </h2>
@@ -590,15 +679,15 @@ to run the code for any discord bot/application.</li>
 this was solved through a custom push/pull method</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode22s0hbhb"><figure><img src="../../images/simple-dungeon1.gif"
+<h2 id="hahahugoshortcode24s0hbhb"><figure><img src="../../images/simple-dungeon1.gif"
          alt="simple-dungeon1.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode22s1hbhb"><figure><img src="../../images/simple-dungeon2.gif"
+<h2 id="hahahugoshortcode24s1hbhb"><figure><img src="../../images/simple-dungeon2.gif"
          alt="simple-dungeon2.gif" width="600"/>
 </figure>
 </h2>
-<h2 id="hahahugoshortcode22s2hbhb"><figure><img src="../../images/simple-dungeon3.png"
+<h2 id="hahahugoshortcode24s2hbhb"><figure><img src="../../images/simple-dungeon3.png"
          alt="simple-dungeon3.png" width="600"/>
 </figure>
 </h2>
@@ -679,7 +768,7 @@ the goal as a result of mutation and poor performing crossovers.</p>
 <li>Efficient manipulation of a large quantity of objects</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode23s0hbhb"><figure><img src="../../images/smart-rockets1.gif"
+<h2 id="hahahugoshortcode25s0hbhb"><figure><img src="../../images/smart-rockets1.gif"
          alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>
@@ -868,7 +957,7 @@ What were my goals with this project? Custom buttons Practice writing sorting al
 <li>Object-Oriented approach</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode25s0hbhb"><figure><img src="../../images/sortingvisualizer1.gif"
+<h2 id="hahahugoshortcode27s0hbhb"><figure><img src="../../images/sortingvisualizer1.gif"
          alt="sortingvisualizer1.gif" width="500"/>
 </figure>
 </h2>
@@ -939,7 +1028,7 @@ What were my goals with this project? Practice manipulation of 2d arrays Practic
 <li>Future integration with agent code</li>
 </ul>
 <h3 id="project-images">Project Images</h3>
-<h2 id="hahahugoshortcode24s0hbhb"><figure><img src="../../images/snake-environment1.gif"
+<h2 id="hahahugoshortcode26s0hbhb"><figure><img src="../../images/snake-environment1.gif"
          alt="agent-maze1.gif" width="500"/>
 </figure>
 </h2>

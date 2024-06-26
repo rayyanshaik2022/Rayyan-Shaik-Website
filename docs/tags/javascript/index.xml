@@ -6,7 +6,20 @@
     <description>Recent content in Javascript on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ProfitPeak</title>
+      <link>https://rayyanshaik.com/timeline/profitpeak/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/profitpeak/</guid>
+      <description>A chrome extension that allows users to view their &amp;ldquo;Profit and Loss&amp;rdquo; of crypto swaps and track wallet gains.
+I developed the full frontend, storage solutions, and integrating custom API wrappers.
+This extension was created by Marc Vaz, Ahmed Abidallah, Chelsea Pan, and Rayyan Shaik.
+Github Repository The Github repository can be found here
+Project Demo Gif Features Read more about the features of this product at our landing page</description>
+    </item>
+    
     <item>
       <title>Twitter Clone</title>
       <link>https://rayyanshaik.com/timeline/twitter-clone/</link>

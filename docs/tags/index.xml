@@ -6,11 +6,29 @@
     <description>Recent content in Tags on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome Extension</title>
+      <link>https://rayyanshaik.com/tags/chrome-extension/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/chrome-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crypto</title>
+      <link>https://rayyanshaik.com/tags/crypto/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Featured</title>
       <link>https://rayyanshaik.com/tags/featured/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/featured/</guid>
       <description></description>
@@ -19,7 +37,7 @@
     <item>
       <title>Javascript</title>
       <link>https://rayyanshaik.com/tags/javascript/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/javascript/</guid>
       <description></description>
@@ -28,9 +46,45 @@
     <item>
       <title>React</title>
       <link>https://rayyanshaik.com/tags/react/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learnings</title>
+      <link>https://rayyanshaik.com/tags/machine-learnings/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/machine-learnings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://rayyanshaik.com/tags/music/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks</title>
+      <link>https://rayyanshaik.com/tags/neural-networks/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://rayyanshaik.com/tags/python/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/tags/python/</guid>
       <description></description>
     </item>
     
@@ -40,60 +94,6 @@
       <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rayyanshaik.com/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://rayyanshaik.com/tags/html/</link>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gui</title>
-      <link>https://rayyanshaik.com/tags/gui/</link>
-      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/gui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://rayyanshaik.com/tags/java/</link>
-      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python3</title>
-      <link>https://rayyanshaik.com/tags/python3/</link>
-      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/python3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithm</title>
-      <link>https://rayyanshaik.com/tags/algorithm/</link>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaboration</title>
-      <link>https://rayyanshaik.com/tags/collaboration/</link>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/tags/collaboration/</guid>
       <description></description>
     </item>
     

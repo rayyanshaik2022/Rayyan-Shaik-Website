@@ -6,7 +6,32 @@
     <description>Recent content in Programming Projects on Rayyan Shaik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/projects/programming-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ProfitPeak</title>
+      <link>https://rayyanshaik.com/timeline/profitpeak/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/profitpeak/</guid>
+      <description>A chrome extension that allows users to view their &amp;ldquo;Profit and Loss&amp;rdquo; of crypto swaps and track wallet gains.
+I developed the full frontend, storage solutions, and integrating custom API wrappers.
+This extension was created by Marc Vaz, Ahmed Abidallah, Chelsea Pan, and Rayyan Shaik.
+Github Repository The Github repository can be found here
+Project Demo Gif Features Read more about the features of this product at our landing page</description>
+    </item>
+    
+    <item>
+      <title>Predicting the degree of virality of trending pop songs</title>
+      <link>https://rayyanshaik.com/timeline/predicting-virality/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/predicting-virality/</guid>
+      <description>A research and exploration capstone project for CIS 5190 - Applied Machine Learning by Rayyan Shaik, Esther Armao, Helen Nguyen
+This project aims predict the virality of a given pop song given only its lyrics.
+We split this project into 2 main contributions, which are outlined below:
+Contribution 1: Dataset of Pop Songs, Lyrics, Streaming Data All data (selection of pop songs, their respective lyrics and historical streaming data) was webscraped using python A link to the dataset generation repository can be found here: Music-Project-Scraper</description>
+    </item>
+    
     <item>
       <title>Twitter Clone</title>
       <link>https://rayyanshaik.com/timeline/twitter-clone/</link>
@@ -89,24 +114,6 @@ What were my goals with this project? Implementation and design of neural networ
       <guid>https://rayyanshaik.com/timeline/velociraptorbot/</guid>
       <description>Description A multi-purpose discord bot to be used on a private server with my friends. This bot provides basic security for our server with an easily customizable verification system. Important e-learnig and virtual learning commands that can reply with my school&amp;rsquo;s schedule and per class zoom links. The bot can also join voice channels and play different sound effects stored as .mp3 files.
 Github Repository The Github repository can be found here</description>
-    </item>
-    
-    <item>
-      <title>Simple Dungeon Game</title>
-      <link>https://rayyanshaik.com/timeline/simple-dungeon/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/simple-dungeon/</guid>
-      <description>Description A showcase-esque project designed to demonstrate an improved understanding of sockets and client/network relationships. This was created in pure python with no game engines (such as Unity), everything from buttons, to servers, to the physics was created from scratch. This is not a complete game, but includes complete portions of one - a main menu screen, working (not much playable content) game, and a level editor. This project features complex gui components created from scratch, such as buttons and text boxes.</description>
-    </item>
-    
-    <item>
-      <title>Agar.io Clone</title>
-      <link>https://rayyanshaik.com/timeline/agario/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayyanshaik.com/timeline/agario/</guid>
-      <description>Description A complete, scalable clone of the popular web game, agar.io. This project was created purely in python, and utilizes the pygame (GUI) and sockets (web connection) libraries. There are 2 main files used to run code. The first is client.py, which runs the game itself. The second is server.py, which can be run on any network and can open a customizable &amp;ldquo;agar.io&amp;rdquo; server on any port. This game is playable online, and through local networks.</description>
     </item>
     
   </channel>

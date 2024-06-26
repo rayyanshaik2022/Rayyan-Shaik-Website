@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Networks on Rayyan Shaik</title>
+    <link>https://rayyanshaik.com/tags/neural-networks/</link>
+    <description>Recent content in Neural Networks on Rayyan Shaik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rayyanshaik.com/tags/neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predicting the degree of virality of trending pop songs</title>
+      <link>https://rayyanshaik.com/timeline/predicting-virality/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayyanshaik.com/timeline/predicting-virality/</guid>
+      <description>A research and exploration capstone project for CIS 5190 - Applied Machine Learning by Rayyan Shaik, Esther Armao, Helen Nguyen
+This project aims predict the virality of a given pop song given only its lyrics.
+We split this project into 2 main contributions, which are outlined below:
+Contribution 1: Dataset of Pop Songs, Lyrics, Streaming Data All data (selection of pop songs, their respective lyrics and historical streaming data) was webscraped using python A link to the dataset generation repository can be found here: Music-Project-Scraper</description>
+    </item>
+    
+  </channel>
+</rss>
